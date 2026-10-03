@@ -1,0 +1,10 @@
+# environments (rebuild per machine: the torch CUDA build depends on the GPU)
+.venv/
+__pycache__/
+*.pyc
+
+# large rebuildable caches
+robot2/mc/prep.npz
+
+# run logs
+robot3/logs/

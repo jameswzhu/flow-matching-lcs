@@ -1,0 +1,9 @@
+# Used by the existing code (versions it was run with)
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+
+# For the language-conditioned task (robot3/)
+torch>=2.9               # CPU build is enough
+transformers>=5.0        # CLIP text encoder
+sentence-transformers>=6.0  # second encoder for comparison

@@ -1,0 +1,1393 @@
+{
+ "replay_max_state_diff": 0.0,
+ "goal_flip_labels_match_S3": 1.0,
+ "table": {
+  "goal flip (any)": {
+   "all states": {
+    "positives": 216,
+    "rows": 8640,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.6973396116914635,
+     "ci": [
+      0.6391151849781951,
+      0.7584362899708464
+     ],
+     "within": 0.6989413321570357
+    },
+    "composed, zero future noise": {
+     "auroc": 0.6577289094650206,
+     "ci": [
+      0.6022881239353768,
+      0.7060759886020492
+     ],
+     "within": 0.6519629466254963
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.683928854067743,
+     "ci": [
+      0.6459600902135738,
+      0.7238619922113367
+     ],
+     "within": 0.5952801058667843
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8443204600612008,
+     "ci": [
+      0.8190323483037618,
+      0.8706020974829985
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8819504897822799,
+     "ci": [
+      0.8563291937725196,
+      0.90198926955624
+     ],
+     "within": 0.8515659461843846
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.7366029817804509,
+     "ci": [
+      0.6846427340963852,
+      0.7837911395134622
+     ],
+     "within": 0.6627701808557565
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.4198217834406106,
+     "ci": [
+      0.374775753716817,
+      0.47099583045766064
+     ],
+     "within": 0.621746801940891
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.7695473251028807,
+     "ci": [
+      0.7180822234390325,
+      0.8245912451063725
+     ],
+     "within": 0.5
+    }
+   },
+   "x < \u22122.2\nA being chosen": {
+    "positives": 110,
+    "rows": 1656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.8513465835587439,
+     "ci": [
+      0.7929321817587481,
+      0.9055702078107801
+     ],
+     "within": 0.8237885462555066
+    },
+    "composed, zero future noise": {
+     "auroc": 0.7275196989297895,
+     "ci": [
+      0.6709125610658322,
+      0.7804328374663005
+     ],
+     "within": 0.7299559471365639
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.7436904621898154,
+     "ci": [
+      0.6819146330796816,
+      0.7955981919184476
+     ],
+     "within": 0.6995594713656388
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.6899564859461367,
+     "ci": [
+      0.6213755189478213,
+      0.7489886661785743
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8644948841585323,
+     "ci": [
+      0.8276053369019742,
+      0.9026072572205777
+     ],
+     "within": 0.8378854625550661
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.7772139244972363,
+     "ci": [
+      0.7250427127149671,
+      0.8344633983915847
+     ],
+     "within": 0.748898678414097
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.667293896271904,
+     "ci": [
+      0.5880211287377853,
+      0.7485199761044753
+     ],
+     "within": 0.6845814977973568
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.7529695401622957,
+     "ci": [
+      0.7017441818961022,
+      0.7998412317554169
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22122.2\u2026\u22121.5\nB beyond chunk": {
+    "positives": 56,
+    "rows": 2328,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.4348277162977867,
+     "ci": [
+      0.3400914967331936,
+      0.5336220082597961
+     ],
+     "within": 0.504222972972973
+    },
+    "composed, zero future noise": {
+     "auroc": 0.4984595070422535,
+     "ci": [
+      0.38725319095398086,
+      0.6110185686280619
+     ],
+     "within": 0.549831081081081
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.5229659205231388,
+     "ci": [
+      0.41866080952803797,
+      0.6036768388879251
+     ],
+     "within": 0.4543918918918919
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8504778672032193,
+     "ci": [
+      0.8013541210337656,
+      0.8936900707166707
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8857755910462777,
+     "ci": [
+      0.8423904655647968,
+      0.9312206509450585
+     ],
+     "within": 0.8640202702702703
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.5396048163983903,
+     "ci": [
+      0.4495315322945898,
+      0.6560918890736879
+     ],
+     "within": 0.5380067567567568
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.4338609783702213,
+     "ci": [
+      0.33496836906983884,
+      0.5575989268130912
+     ],
+     "within": 0.5118243243243243
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.5533827967806841,
+     "ci": [
+      0.49501464328248457,
+      0.6345604414073832
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22121.5\u20260.5\nB inside chunk": {
+    "positives": 50,
+    "rows": 4656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.7039991315675206,
+     "ci": [
+      0.6044465062762054,
+      0.7862823251723398
+     ],
+     "within": 0.65
+    },
+    "composed, zero future noise": {
+     "auroc": 0.6187060356057317,
+     "ci": [
+      0.5284971258269492,
+      0.7183656553539594
+     ],
+     "within": 0.6
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.643365175857577,
+     "ci": [
+      0.5480220067867915,
+      0.7395546869080423
+     ],
+     "within": 0.5305555555555556
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8837082066869301,
+     "ci": [
+      0.8455274072555284,
+      0.9261939101619397
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8834520191055145,
+     "ci": [
+      0.8308203038305019,
+      0.9264688600604584
+     ],
+     "within": 0.8666666666666667
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.6792965696917065,
+     "ci": [
+      0.5777141717245964,
+      0.791522656756892
+     ],
+     "within": 0.6185185185185185
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.3241945288753799,
+     "ci": [
+      0.20555624656506563,
+      0.4537607412750112
+     ],
+     "within": 0.6101851851851852
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.9074164133738601,
+     "ci": [
+      0.8705950643223032,
+      0.936731186927755
+     ],
+     "within": 0.5
+    }
+   }
+  },
+  "goal flip, A changes": {
+   "all states": {
+    "positives": 91,
+    "rows": 8640,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.9268534717125195,
+     "ci": [
+      0.8708024778521325,
+      0.9727819938653671
+     ],
+     "within": 0.9134966128191766
+    },
+    "composed, zero future noise": {
+     "auroc": 0.8065116542131398,
+     "ci": [
+      0.749164992892374,
+      0.8707886452650776
+     ],
+     "within": 0.7717561229807192
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.8180443956558122,
+     "ci": [
+      0.7522467003257222,
+      0.8717568266871564
+     ],
+     "within": 0.7503908285565398
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8318992389059063,
+     "ci": [
+      0.7897364084384585,
+      0.8736783834761006
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8682064221893442,
+     "ci": [
+      0.8272287431223916,
+      0.9055658820089336
+     ],
+     "within": 0.8285565398645127
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.8795399243404858,
+     "ci": [
+      0.8387300482278822,
+      0.9203923309755457
+     ],
+     "within": 0.7988535695674831
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.3704912469680279,
+     "ci": [
+      0.29799829247615217,
+      0.44001472903018196
+     ],
+     "within": 0.7107868681605003
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.9332259155045446,
+     "ci": [
+      0.9068452789669568,
+      0.9529461812036524
+     ],
+     "within": 0.5
+    }
+   },
+   "x < \u22122.2\nA being chosen": {
+    "positives": 90,
+    "rows": 1656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.9263516389953171,
+     "ci": [
+      0.8740018203533805,
+      0.9712969494485839
+     ],
+     "within": 0.9124472573839663
+    },
+    "composed, zero future noise": {
+     "auroc": 0.7739037888463176,
+     "ci": [
+      0.7081182586945615,
+      0.8308631834260467
+     ],
+     "within": 0.7689873417721519
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.7910032638001987,
+     "ci": [
+      0.7205075812002212,
+      0.842781819087435
+     ],
+     "within": 0.7473628691983122
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.6862920391656023,
+     "ci": [
+      0.6188174899738638,
+      0.7441149470259851
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8546828437633035,
+     "ci": [
+      0.8165770013377172,
+      0.8988437144454454
+     ],
+     "within": 0.8270042194092827
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.8130977721016035,
+     "ci": [
+      0.761000626621784,
+      0.8648818042985486
+     ],
+     "within": 0.7964135021097046
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.6759259259259259,
+     "ci": [
+      0.6028083860260138,
+      0.7552047426792118
+     ],
+     "within": 0.7072784810126582
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.7561941251596423,
+     "ci": [
+      0.7072129959273195,
+      0.8033816380444205
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22122.2\u2026\u22121.5\nB beyond chunk": {
+    "positives": 1,
+    "rows": 2328,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "composed, zero future noise": {
+     "auroc": 0.9879673399226472,
+     "ci": [
+      0.968027503223034,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.9918349806617963,
+     "ci": [
+      0.9866723989681857,
+      0.9955307262569832
+     ],
+     "within": 1.0
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8816072195960464,
+     "ci": [
+      0.8147033533963887,
+      0.9331757627847014
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9888268156424581,
+     "ci": [
+      0.9840928632846088,
+      0.9935539321014182
+     ],
+     "within": 0.9565217391304348
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.9866781263429308,
+     "ci": [
+      0.9797971105209657,
+      0.9922647185217017
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9948431456811345,
+     "ci": [
+      0.9918349806617963,
+      0.9972490125821185
+     ],
+     "within": 1.0
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.46390201976794154,
+     "ci": [
+      0.4329608938547486,
+      0.4896818572656922
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22121.5\u20260.5\nB inside chunk": {
+    "positives": 0,
+    "rows": 4656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, zero future noise": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, actual future noise": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    }
+   }
+  },
+  "goal flip, only B changes": {
+   "all states": {
+    "positives": 125,
+    "rows": 8640,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.5253684086905461,
+     "ci": [
+      0.44973651508404755,
+      0.5981791824262653
+     ],
+     "within": 0.5401703072935949
+    },
+    "composed, zero future noise": {
+     "auroc": 0.5456112742219612,
+     "ci": [
+      0.48471755933792426,
+      0.6135315373373227
+     ],
+     "within": 0.5620140688633839
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.5819715795654727,
+     "ci": [
+      0.5279648589794508,
+      0.6321433089351736
+     ],
+     "within": 0.4820436875231396
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8460396946564885,
+     "ci": [
+      0.8123272884192776,
+      0.8768891491458661
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8838322959483265,
+     "ci": [
+      0.8566888256601446,
+      0.9059367388598553
+     ],
+     "within": 0.8567197334320622
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.6270722254844392,
+     "ci": [
+      0.565719688401497,
+      0.6885348632272943
+     ],
+     "within": 0.5609033691225472
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.45759154433352905,
+     "ci": [
+      0.39228272195254826,
+      0.5290103786145087
+     ],
+     "within": 0.5546094039244724
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.6441522019964768,
+     "ci": [
+      0.5810385250256342,
+      0.7190744112410523
+     ],
+     "within": 0.5
+    }
+   },
+   "x < \u22122.2\nA being chosen": {
+    "positives": 20,
+    "rows": 1656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.4896088019559902,
+     "ci": [
+      0.3588946064018759,
+      0.6284551882482547
+     ],
+     "within": 0.3964757709251101
+    },
+    "composed, zero future noise": {
+     "auroc": 0.5026894865525673,
+     "ci": [
+      0.3619865598732318,
+      0.6707019313783187
+     ],
+     "within": 0.526431718061674
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.513080684596577,
+     "ci": [
+      0.39712691422421575,
+      0.6472735090595504
+     ],
+     "within": 0.4647577092511013
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.6848410757946211,
+     "ci": [
+      0.5935348071002257,
+      0.7836058103142872
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8666564792176039,
+     "ci": [
+      0.795932342603912,
+      0.935525561696381
+     ],
+     "within": 0.8237885462555066
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.5921454767726161,
+     "ci": [
+      0.44166838943380854,
+      0.7335023230460015
+     ],
+     "within": 0.5066079295154186
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.6117053789731052,
+     "ci": [
+      0.4569849783129322,
+      0.759314542139405
+     ],
+     "within": 0.5572687224669604
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.7112469437652812,
+     "ci": [
+      0.5956445919581522,
+      0.8163039473265464
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22122.2\u2026\u22121.5\nB beyond chunk": {
+    "positives": 55,
+    "rows": 2328,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.4243650761908571,
+     "ci": [
+      0.3272560386776274,
+      0.516529919705224
+     ],
+     "within": 0.4944301628106255
+    },
+    "composed, zero future noise": {
+     "auroc": 0.4893492780866296,
+     "ci": [
+      0.3814252211664053,
+      0.6075735793153659
+     ],
+     "within": 0.5407026563838904
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.5142182938047434,
+     "ci": [
+      0.40610755807892407,
+      0.5985761815446217
+     ],
+     "within": 0.4438731790916881
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8495900491940968,
+     "ci": [
+      0.8005204307777424,
+      0.8934997522947772
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8835179778426588,
+     "ci": [
+      0.8423904655647968,
+      0.929720845889627
+     ],
+     "within": 0.8603256212510711
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.5312482502099748,
+     "ci": [
+      0.4464645074603394,
+      0.6513006528664005
+     ],
+     "within": 0.5287060839760068
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.42347718273807144,
+     "ci": [
+      0.33223149347926884,
+      0.5436164270569837
+     ],
+     "within": 0.5021422450728363
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.5550013998320201,
+     "ci": [
+      0.4951299988428544,
+      0.6345604414073832
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22121.5\u20260.5\nB inside chunk": {
+    "positives": 50,
+    "rows": 4656,
+    "one chunk  log\u2016\u2202\u03a6/\u2202g\u2016": {
+     "auroc": 0.7039991315675206,
+     "ci": [
+      0.6044465062762054,
+      0.7862823251723398
+     ],
+     "within": 0.65
+    },
+    "composed, zero future noise": {
+     "auroc": 0.6187060356057317,
+     "ci": [
+      0.5284971258269492,
+      0.7183656553539594
+     ],
+     "within": 0.6
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.643365175857577,
+     "ci": [
+      0.5480220067867915,
+      0.7395546869080423
+     ],
+     "within": 0.5305555555555556
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8837082066869301,
+     "ci": [
+      0.8455274072555284,
+      0.9261939101619397
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.8834520191055145,
+     "ci": [
+      0.8308203038305019,
+      0.9264688600604584
+     ],
+     "within": 0.8666666666666667
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.6792965696917065,
+     "ci": [
+      0.5777141717245964,
+      0.791522656756892
+     ],
+     "within": 0.6185185185185185
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.3241945288753799,
+     "ci": [
+      0.20555624656506563,
+      0.4537607412750112
+     ],
+     "within": 0.6101851851851852
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.9074164133738601,
+     "ci": [
+      0.8705950643223032,
+      0.936731186927755
+     ],
+     "within": 0.5
+    }
+   }
+  },
+  "seed flip (any)": {
+   "all states": {
+    "positives": 29,
+    "rows": 8640,
+    "one chunk FTLE": {
+     "auroc": 0.9451703714975632,
+     "ci": [
+      0.8989226783856714,
+      0.9925099793371733
+     ],
+     "within": 0.9291101055806938
+    },
+    "composed, zero future noise": {
+     "auroc": 0.9417345095887778,
+     "ci": [
+      0.8940163893653756,
+      0.9913637362012925
+     ],
+     "within": 0.9291101055806938
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.9544888454622996,
+     "ci": [
+      0.9046493285999739,
+      0.9927430884260495
+     ],
+     "within": 0.9351432880844646
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.890150529194815,
+     "ci": [
+      0.8539122742850059,
+      0.9249439676354673
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9978896279418066,
+     "ci": [
+      0.9968500715250451,
+      0.9988517005057465
+     ],
+     "within": 0.9924585218702866
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.9792006214985643,
+     "ci": [
+      0.9541356646992607,
+      0.997761549685018
+     ],
+     "within": 0.9939668174962293
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9981899655212458,
+     "ci": [
+      0.9970787885502004,
+      0.9990445691294163
+     ],
+     "within": 0.9939668174962293
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.894187066262479,
+     "ci": [
+      0.847252794916054,
+      0.9341571230271764
+     ],
+     "within": 0.5
+    }
+   },
+   "x < \u22122.2\nA being chosen": {
+    "positives": 23,
+    "rows": 1656,
+    "one chunk FTLE": {
+     "auroc": 0.9834660134721371,
+     "ci": [
+      0.9614665987536364,
+      0.9970263720148619
+     ],
+     "within": 0.9866666666666667
+    },
+    "composed, zero future noise": {
+     "auroc": 0.9827205197156473,
+     "ci": [
+      0.9600141528961754,
+      0.996514116770869
+     ],
+     "within": 0.9866666666666667
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.9820016507361751,
+     "ci": [
+      0.9574133443333288,
+      0.9965110851821204
+     ],
+     "within": 0.979047619047619
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.7351500306184936,
+     "ci": [
+      0.6575477595960008,
+      0.8112965671320388
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9936366782928193,
+     "ci": [
+      0.9900346707364039,
+      0.9971168054475198
+     ],
+     "within": 0.9923809523809524
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.9896962112942305,
+     "ci": [
+      0.9816297154964319,
+      0.9966398357023357
+     ],
+     "within": 0.9923809523809524
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9931308075294869,
+     "ci": [
+      0.9894840806418164,
+      0.9968631558237747
+     ],
+     "within": 0.9942857142857143
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.7325940520248143,
+     "ci": [
+      0.6427920694658541,
+      0.8051282101106828
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22122.2\u2026\u22121.5\nB beyond chunk": {
+    "positives": 1,
+    "rows": 2328,
+    "one chunk FTLE": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "composed, zero future noise": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.9744305973356253,
+     "ci": [
+      0.9385210662080825,
+      0.9950580146110872
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "within": 1.0
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.46390201976794154,
+     "ci": [
+      0.4329608938547486,
+      0.4896818572656922
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22121.5\u20260.5\nB inside chunk": {
+    "positives": 5,
+    "rows": 4656,
+    "one chunk FTLE": {
+     "auroc": 0.7031606106213717,
+     "ci": [
+      0.4926767749412061,
+      0.8964152489071838
+     ],
+     "within": 0.6521739130434783
+    },
+    "composed, zero future noise": {
+     "auroc": 0.6791227692969254,
+     "ci": [
+      0.4648524249588079,
+      0.8755162881100307
+     ],
+     "within": 0.6521739130434783
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.7685658998064933,
+     "ci": [
+      0.5065452900139215,
+      0.9841385267102907
+     ],
+     "within": 0.7217391304347827
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.825607396258869,
+     "ci": [
+      0.640565869322075,
+      0.9708975638949973
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9987529563534724,
+     "ci": [
+      0.9973866686298659,
+      0.9997850675670557
+     ],
+     "within": 0.991304347826087
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.997333906686734,
+     "ci": [
+      0.9923554385210662,
+      0.9995703544575725
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9990969683938938,
+     "ci": [
+      0.9982412631530571,
+      0.9999126488549265
+     ],
+     "within": 0.991304347826087
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.8648247688669103,
+     "ci": [
+      0.8054408215321416,
+      0.9214860994771371
+     ],
+     "within": 0.5
+    }
+   }
+  },
+  "seed flip, only B changes": {
+   "all states": {
+    "positives": 7,
+    "rows": 8640,
+    "one chunk FTLE": {
+     "auroc": 0.8008968906686965,
+     "ci": [
+      0.5915797679200325,
+      0.9696242032751817
+     ],
+     "within": 0.7515527950310559
+    },
+    "composed, zero future noise": {
+     "auroc": 0.7905710645198656,
+     "ci": [
+      0.576186772326708,
+      0.9633541380650592
+     ],
+     "within": 0.7515527950310559
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.8437887839023018,
+     "ci": [
+      0.6350142024801587,
+      0.9879870304027669
+     ],
+     "within": 0.8012422360248447
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.8127533881617051,
+     "ci": [
+      0.7116619344403059,
+      0.9144957739956003
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9966407969419668,
+     "ci": [
+      0.9947253107868119,
+      0.9981819635926016
+     ],
+     "within": 0.9937888198757764
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.9952011384885241,
+     "ci": [
+      0.9927869489843067,
+      0.9970858239571336
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9969221095133293,
+     "ci": [
+      0.9954743021916489,
+      0.9982271562320696
+     ],
+     "within": 0.9937888198757764
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.8365822177359302,
+     "ci": [
+      0.7820908964462365,
+      0.9000603595144974
+     ],
+     "within": 0.5
+    }
+   },
+   "x < \u22122.2\nA being chosen": {
+    "positives": 2,
+    "rows": 1656,
+    "one chunk FTLE": {
+     "auroc": 0.9860943168077388,
+     "ci": [
+      0.9800546966613939,
+      0.9922362861872186
+     ],
+     "within": 1.0
+    },
+    "composed, zero future noise": {
+     "auroc": 0.9851874244256348,
+     "ci": [
+      0.9789857151640604,
+      0.9921425218366534
+     ],
+     "within": 1.0
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.9854897218863361,
+     "ci": [
+      0.9794502935299211,
+      0.991827989514015
+     ],
+     "within": 1.0
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.6596130592503023,
+     "ci": [
+      0.5194874500751163,
+      0.7974607013301088
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9848851269649335,
+     "ci": [
+      0.978291249125538,
+      0.991822853688029
+     ],
+     "within": 1.0
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.9842805320435308,
+     "ci": [
+      0.9764298238290056,
+      0.991532982792636
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9842805320435308,
+     "ci": [
+      0.9782477341389728,
+      0.9908171125505172
+     ],
+     "within": 1.0
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.6741233373639661,
+     "ci": [
+      0.4495796162977503,
+      0.8914147521160821
+     ],
+     "within": 0.5
+    }
+   },
+   "\u22122.2\u2026\u22121.5\nB beyond chunk": {
+    "positives": 0,
+    "rows": 2328,
+    "one chunk FTLE": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, zero future noise": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "composed, actual future noise": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": NaN,
+     "ci": [
+      NaN,
+      NaN
+     ],
+     "within": NaN
+    }
+   },
+   "\u22121.5\u20260.5\nB inside chunk": {
+    "positives": 5,
+    "rows": 4656,
+    "one chunk FTLE": {
+     "auroc": 0.7031606106213717,
+     "ci": [
+      0.4926767749412061,
+      0.8964152489071838
+     ],
+     "within": 0.6521739130434783
+    },
+    "composed, zero future noise": {
+     "auroc": 0.6791227692969254,
+     "ci": [
+      0.4648524249588079,
+      0.8755162881100307
+     ],
+     "within": 0.6521739130434783
+    },
+    "composed, random future noise (per seed)": {
+     "auroc": 0.7685658998064933,
+     "ci": [
+      0.5065452900139215,
+      0.9841385267102907
+     ],
+     "within": 0.7217391304347827
+    },
+    "composed, random futures \u2192 state risk (max of 48 paths)": {
+     "auroc": 0.825607396258869,
+     "ci": [
+      0.640565869322075,
+      0.9708975638949973
+     ],
+     "within": 0.5
+    },
+    "composed, actual future noise": {
+     "auroc": 0.9987529563534724,
+     "ci": [
+      0.9973866686298659,
+      0.9997850675670557
+     ],
+     "within": 0.991304347826087
+    },
+    "variant: y-at-column sensitivity (actual noise)": {
+     "auroc": 0.997333906686734,
+     "ci": [
+      0.9923554385210662,
+      0.9995703544575725
+     ],
+     "within": 1.0
+    },
+    "variant: whole-trajectory norm (actual noise)": {
+     "auroc": 0.9990969683938938,
+     "ci": [
+      0.9982412631530571,
+      0.9999126488549265
+     ],
+     "within": 0.991304347826087
+    },
+    "baseline: one-chunk state entropy": {
+     "auroc": 0.8648247688669103,
+     "ci": [
+      0.8054408215321416,
+      0.9214860994771371
+     ],
+     "within": 0.5
+    }
+   }
+  }
+ },
+ "argmax_replan_of_goal_score": [
+  129,
+  694,
+  862,
+  914,
+  678,
+  835,
+  723,
+  688,
+  909,
+  913,
+  855,
+  425,
+  15,
+  0,
+  0
+ ]
+}

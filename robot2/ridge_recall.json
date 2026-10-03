@@ -1,0 +1,266 @@
+{
+ "open loop, seed nudge": {
+  "one-chunk FTLE (noise)": {
+   "top1%": {
+    "recall": 0.7619047619047619,
+    "precision": 0.367816091954023
+   },
+   "top2%": {
+    "recall": 0.7619047619047619,
+    "precision": 0.18497109826589594
+   },
+   "top5%": {
+    "recall": 0.8333333333333334,
+    "precision": 0.08101851851851852
+   },
+   "top10%": {
+    "recall": 0.9047619047619048,
+    "precision": 0.04398148148148148
+   }
+  }
+ },
+ "open loop, goal nudge": {
+  "one-chunk goal sens.": {
+   "top1%": {
+    "recall": 0.5602836879432624,
+    "precision": 0.9080459770114943
+   },
+   "top2%": {
+    "recall": 0.8297872340425532,
+    "precision": 0.6763005780346821
+   },
+   "top5%": {
+    "recall": 0.9432624113475178,
+    "precision": 0.30787037037037035
+   },
+   "top10%": {
+    "recall": 0.950354609929078,
+    "precision": 0.1550925925925926
+   }
+  },
+  "one-chunk FTLE (noise)": {
+   "top1%": {
+    "recall": 0.5106382978723404,
+    "precision": 0.8275862068965517
+   },
+   "top2%": {
+    "recall": 0.75177304964539,
+    "precision": 0.6127167630057804
+   },
+   "top5%": {
+    "recall": 0.9148936170212766,
+    "precision": 0.2986111111111111
+   },
+   "top10%": {
+    "recall": 0.9574468085106383,
+    "precision": 0.15625
+   }
+  }
+ },
+ "closed loop, seed nudge": {
+  "one-chunk FTLE (noise)": {
+   "top1%": {
+    "recall": 0.8275862068965517,
+    "precision": 0.27586206896551724
+   },
+   "top2%": {
+    "recall": 0.8275862068965517,
+    "precision": 0.13872832369942195
+   },
+   "top5%": {
+    "recall": 0.8275862068965517,
+    "precision": 0.05555555555555555
+   },
+   "top10%": {
+    "recall": 0.8275862068965517,
+    "precision": 0.027777777777777776
+   }
+  },
+  "composed seed, actual noise": {
+   "top1%": {
+    "recall": 1.0,
+    "precision": 0.3333333333333333
+   },
+   "top2%": {
+    "recall": 1.0,
+    "precision": 0.1676300578034682
+   },
+   "top5%": {
+    "recall": 1.0,
+    "precision": 0.06712962962962964
+   },
+   "top10%": {
+    "recall": 1.0,
+    "precision": 0.03356481481481482
+   }
+  }
+ },
+ "closed loop, goal nudge": {
+  "one-chunk goal sens.": {
+   "top1%": {
+    "recall": 0.24537037037037038,
+    "precision": 0.6091954022988506
+   },
+   "top2%": {
+    "recall": 0.39814814814814814,
+    "precision": 0.49710982658959535
+   },
+   "top5%": {
+    "recall": 0.4722222222222222,
+    "precision": 0.2361111111111111
+   },
+   "top10%": {
+    "recall": 0.4861111111111111,
+    "precision": 0.12152777777777778
+   }
+  },
+  "composed goal, actual noise": {
+   "top1%": {
+    "recall": 0.23148148148148148,
+    "precision": 0.5747126436781609
+   },
+   "top2%": {
+    "recall": 0.38425925925925924,
+    "precision": 0.4797687861271676
+   },
+   "top5%": {
+    "recall": 0.6018518518518519,
+    "precision": 0.30092592592592593
+   },
+   "top10%": {
+    "recall": 0.6620370370370371,
+    "precision": 0.16550925925925927
+   }
+  },
+  "composed goal, state risk (48 futures)": {
+   "top1%": {
+    "recall": 0.032407407407407406,
+    "precision": 0.07291666666666667
+   },
+   "top2%": {
+    "recall": 0.0787037037037037,
+    "precision": 0.08854166666666667
+   },
+   "top5%": {
+    "recall": 0.17592592592592593,
+    "precision": 0.08796296296296297
+   },
+   "top10%": {
+    "recall": 0.375,
+    "precision": 0.09375
+   }
+  }
+ },
+ "  \u2026only B flips": {
+  "one-chunk goal sens.": {
+   "top1%": {
+    "recall": 0.056,
+    "precision": 0.08045977011494253
+   },
+   "top2%": {
+    "recall": 0.112,
+    "precision": 0.08092485549132948
+   },
+   "top5%": {
+    "recall": 0.176,
+    "precision": 0.05092592592592592
+   },
+   "top10%": {
+    "recall": 0.2,
+    "precision": 0.028935185185185185
+   }
+  },
+  "composed goal, actual noise": {
+   "top1%": {
+    "recall": 0.248,
+    "precision": 0.3563218390804598
+   },
+   "top2%": {
+    "recall": 0.376,
+    "precision": 0.27167630057803466
+   },
+   "top5%": {
+    "recall": 0.608,
+    "precision": 0.17592592592592593
+   },
+   "top10%": {
+    "recall": 0.664,
+    "precision": 0.09606481481481481
+   }
+  },
+  "composed goal, state risk (48 futures)": {
+   "top1%": {
+    "recall": 0.024,
+    "precision": 0.03125
+   },
+   "top2%": {
+    "recall": 0.104,
+    "precision": 0.06770833333333333
+   },
+   "top5%": {
+    "recall": 0.24,
+    "precision": 0.06944444444444445
+   },
+   "top10%": {
+    "recall": 0.424,
+    "precision": 0.061342592592592594
+   }
+  }
+ },
+ "  \u2026only B flips, B beyond chunk": {
+  "one-chunk goal sens.": {
+   "top1%": {
+    "recall": 0.0,
+    "precision": 0.0
+   },
+   "top2%": {
+    "recall": 0.0,
+    "precision": 0.0
+   },
+   "top5%": {
+    "recall": 0.01818181818181818,
+    "precision": 0.0023148148148148147
+   },
+   "top10%": {
+    "recall": 0.01818181818181818,
+    "precision": 0.0011574074074074073
+   }
+  },
+  "composed goal, actual noise": {
+   "top1%": {
+    "recall": 0.18181818181818182,
+    "precision": 0.11494252873563218
+   },
+   "top2%": {
+    "recall": 0.34545454545454546,
+    "precision": 0.10982658959537572
+   },
+   "top5%": {
+    "recall": 0.6,
+    "precision": 0.0763888888888889
+   },
+   "top10%": {
+    "recall": 0.6909090909090909,
+    "precision": 0.04398148148148148
+   }
+  },
+  "composed goal, state risk (48 futures)": {
+   "top1%": {
+    "recall": 0.01818181818181818,
+    "precision": 0.010416666666666666
+   },
+   "top2%": {
+    "recall": 0.12727272727272726,
+    "precision": 0.036458333333333336
+   },
+   "top5%": {
+    "recall": 0.2545454545454545,
+    "precision": 0.032407407407407406
+   },
+   "top10%": {
+    "recall": 0.5818181818181818,
+    "precision": 0.037037037037037035
+   }
+  }
+ }
+}
