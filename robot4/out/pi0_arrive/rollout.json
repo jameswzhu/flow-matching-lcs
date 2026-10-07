@@ -1,0 +1,716 @@
+{
+ "red square": {
+  "group": "train",
+  "n_match": 1,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 1.0,
+    "red circle": 0.0,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 1.0,
+    "red circle": 0.0,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  }
+ },
+ "red circle": {
+  "group": "train",
+  "n_match": 1,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 1.0,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 1.0,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  }
+ },
+ "blue square": {
+  "group": "train",
+  "n_match": 1,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 1.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 1.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  }
+ },
+ "blue circle": {
+  "group": "train",
+  "n_match": 1,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 0.0,
+    "blue circle": 1.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 0.0,
+    "blue circle": 1.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0,
+   "final_ne_first": 0.0
+  }
+ },
+ "square": {
+  "group": "train",
+  "n_match": 2,
+  "reach": {
+   "success": 0.995,
+   "wrong": 0.005,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.525,
+    "red circle": 0.0,
+    "blue square": 0.47,
+    "blue circle": 0.005
+   },
+   "scene_entropy_norm": 0.8010864590354122,
+   "scene_min_share": 0.3,
+   "switch_rate": 0.0175,
+   "final_ne_first": 0.015
+  },
+  "contact": {
+   "success": 0.995,
+   "wrong": 0.005,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.525,
+    "red circle": 0.0,
+    "blue square": 0.47,
+    "blue circle": 0.005
+   },
+   "scene_entropy_norm": 0.8010864590354122,
+   "scene_min_share": 0.3,
+   "switch_rate": 0.0175,
+   "final_ne_first": 0.015
+  }
+ },
+ "circle": {
+  "group": "train",
+  "n_match": 2,
+  "reach": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.4775,
+    "blue square": 0.0,
+    "blue circle": 0.52
+   },
+   "scene_entropy_norm": 0.7550729258794086,
+   "scene_min_share": 0.2775,
+   "switch_rate": 0.0275,
+   "final_ne_first": 0.0225
+  },
+  "contact": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.4775,
+    "blue square": 0.0,
+    "blue circle": 0.52
+   },
+   "scene_entropy_norm": 0.7550729258794086,
+   "scene_min_share": 0.2775,
+   "switch_rate": 0.0275,
+   "final_ne_first": 0.0225
+  }
+ },
+ "red": {
+  "group": "train",
+  "n_match": 2,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.52,
+    "red circle": 0.48,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": 0.7371359727956248,
+   "scene_min_share": 0.28,
+   "switch_rate": 0.0275,
+   "final_ne_first": 0.0225
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.52,
+    "red circle": 0.48,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": 0.7371359727956248,
+   "scene_min_share": 0.28,
+   "switch_rate": 0.0275,
+   "final_ne_first": 0.0225
+  }
+ },
+ "blue": {
+  "group": "train",
+  "n_match": 2,
+  "reach": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.0,
+    "blue square": 0.4825,
+    "blue circle": 0.515
+   },
+   "scene_entropy_norm": 0.7213608626353569,
+   "scene_min_share": 0.2625,
+   "switch_rate": 0.015,
+   "final_ne_first": 0.0125
+  },
+  "contact": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.0,
+    "blue square": 0.4825,
+    "blue circle": 0.515
+   },
+   "scene_entropy_norm": 0.7213608626353569,
+   "scene_min_share": 0.2625,
+   "switch_rate": 0.015,
+   "final_ne_first": 0.0125
+  }
+ },
+ "shape": {
+  "group": "train",
+  "n_match": 4,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.255,
+    "red circle": 0.26,
+    "blue square": 0.225,
+    "blue circle": 0.26
+   },
+   "scene_entropy_norm": 0.7507324196595884,
+   "scene_min_share": 0.06,
+   "switch_rate": 0.04,
+   "final_ne_first": 0.0325
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.255,
+    "red circle": 0.26,
+    "blue square": 0.225,
+    "blue circle": 0.26
+   },
+   "scene_entropy_norm": 0.7507324196595884,
+   "scene_min_share": 0.06,
+   "switch_rate": 0.04,
+   "final_ne_first": 0.0325
+  }
+ },
+ "box": {
+  "group": "paraphrase",
+  "n_match": 2,
+  "reach": {
+   "success": 0.4325,
+   "wrong": 0.5675,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.2125,
+    "red circle": 0.2675,
+    "blue square": 0.22,
+    "blue circle": 0.3
+   },
+   "scene_entropy_norm": 0.5937169391132191,
+   "scene_min_share": 0.0775,
+   "switch_rate": 0.04,
+   "final_ne_first": 0.0375
+  },
+  "contact": {
+   "success": 0.4325,
+   "wrong": 0.5675,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.2125,
+    "red circle": 0.2675,
+    "blue square": 0.22,
+    "blue circle": 0.3
+   },
+   "scene_entropy_norm": 0.5937169391132191,
+   "scene_min_share": 0.0775,
+   "switch_rate": 0.04,
+   "final_ne_first": 0.0375
+  }
+ },
+ "red box": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.3825,
+   "wrong": 0.6175,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.3825,
+    "red circle": 0.6175,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0375,
+   "final_ne_first": 0.0325
+  },
+  "contact": {
+   "success": 0.3825,
+   "wrong": 0.6175,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.3825,
+    "red circle": 0.6175,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0375,
+   "final_ne_first": 0.0325
+  }
+ },
+ "blue box": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.49,
+   "wrong": 0.51,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.0075,
+    "blue square": 0.49,
+    "blue circle": 0.5
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.025,
+   "final_ne_first": 0.0225
+  },
+  "contact": {
+   "success": 0.49,
+   "wrong": 0.51,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0025,
+    "red circle": 0.0075,
+    "blue square": 0.49,
+    "blue circle": 0.5
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.025,
+   "final_ne_first": 0.0225
+  }
+ },
+ "round object": {
+  "group": "paraphrase",
+  "n_match": 2,
+  "reach": {
+   "success": 0.645,
+   "wrong": 0.355,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.1975,
+    "red circle": 0.3575,
+    "blue square": 0.1575,
+    "blue circle": 0.2875
+   },
+   "scene_entropy_norm": 0.813966823356656,
+   "scene_min_share": 0.1775,
+   "switch_rate": 0.065,
+   "final_ne_first": 0.055
+  },
+  "contact": {
+   "success": 0.645,
+   "wrong": 0.355,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.1975,
+    "red circle": 0.3575,
+    "blue square": 0.1575,
+    "blue circle": 0.2875
+   },
+   "scene_entropy_norm": 0.813966823356656,
+   "scene_min_share": 0.1775,
+   "switch_rate": 0.065,
+   "final_ne_first": 0.055
+  }
+ },
+ "red disk": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.805,
+   "wrong": 0.195,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.195,
+    "red circle": 0.805,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0325,
+   "final_ne_first": 0.025
+  },
+  "contact": {
+   "success": 0.805,
+   "wrong": 0.195,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.195,
+    "red circle": 0.805,
+    "blue square": 0.0,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0325,
+   "final_ne_first": 0.025
+  }
+ },
+ "blue disk": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.7225,
+   "wrong": 0.2775,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 0.2775,
+    "blue circle": 0.7225
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.025,
+   "final_ne_first": 0.02
+  },
+  "contact": {
+   "success": 0.7225,
+   "wrong": 0.2775,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.0,
+    "blue square": 0.2775,
+    "blue circle": 0.7225
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.025,
+   "final_ne_first": 0.02
+  }
+ },
+ "crimson square": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.79,
+   "wrong": 0.21,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.79,
+    "red circle": 0.0075,
+    "blue square": 0.2,
+    "blue circle": 0.0025
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0175,
+   "final_ne_first": 0.0175
+  },
+  "contact": {
+   "success": 0.79,
+   "wrong": 0.21,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.79,
+    "red circle": 0.0075,
+    "blue square": 0.2,
+    "blue circle": 0.0025
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0175,
+   "final_ne_first": 0.0175
+  }
+ },
+ "navy circle": {
+  "group": "paraphrase",
+  "n_match": 1,
+  "reach": {
+   "success": 0.42,
+   "wrong": 0.58,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.58,
+    "blue square": 0.0,
+    "blue circle": 0.42
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0475,
+   "final_ne_first": 0.045
+  },
+  "contact": {
+   "success": 0.42,
+   "wrong": 0.58,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0,
+    "red circle": 0.58,
+    "blue square": 0.0,
+    "blue circle": 0.42
+   },
+   "scene_entropy_norm": null,
+   "scene_min_share": null,
+   "switch_rate": 0.0475,
+   "final_ne_first": 0.045
+  }
+ },
+ "a red thing": {
+  "group": "paraphrase",
+  "n_match": 2,
+  "reach": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.4625,
+    "red circle": 0.535,
+    "blue square": 0.0025,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": 0.7744913317682002,
+   "scene_min_share": 0.2875,
+   "switch_rate": 0.0475,
+   "final_ne_first": 0.0425
+  },
+  "contact": {
+   "success": 0.9975,
+   "wrong": 0.0025,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.4625,
+    "red circle": 0.535,
+    "blue square": 0.0025,
+    "blue circle": 0.0
+   },
+   "scene_entropy_norm": 0.7744913317682002,
+   "scene_min_share": 0.2875,
+   "switch_rate": 0.0475,
+   "final_ne_first": 0.0425
+  }
+ },
+ "something blue": {
+  "group": "paraphrase",
+  "n_match": 2,
+  "reach": {
+   "success": 0.8525,
+   "wrong": 0.1475,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0725,
+    "red circle": 0.075,
+    "blue square": 0.3575,
+    "blue circle": 0.495
+   },
+   "scene_entropy_norm": 0.8047978890133677,
+   "scene_min_share": 0.23,
+   "switch_rate": 0.0325,
+   "final_ne_first": 0.03
+  },
+  "contact": {
+   "success": 0.8525,
+   "wrong": 0.1475,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.0725,
+    "red circle": 0.075,
+    "blue square": 0.3575,
+    "blue circle": 0.495
+   },
+   "scene_entropy_norm": 0.8047978890133677,
+   "scene_min_share": 0.23,
+   "switch_rate": 0.0325,
+   "final_ne_first": 0.03
+  }
+ },
+ "any object": {
+  "group": "paraphrase",
+  "n_match": 4,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.2525,
+    "red circle": 0.33,
+    "blue square": 0.165,
+    "blue circle": 0.2525
+   },
+   "scene_entropy_norm": 0.7160266466685159,
+   "scene_min_share": 0.0375,
+   "switch_rate": 0.0525,
+   "final_ne_first": 0.05
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.2525,
+    "red circle": 0.33,
+    "blue square": 0.165,
+    "blue circle": 0.2525
+   },
+   "scene_entropy_norm": 0.7160266466685159,
+   "scene_min_share": 0.0375,
+   "switch_rate": 0.0525,
+   "final_ne_first": 0.05
+  }
+ },
+ "object": {
+  "group": "paraphrase",
+  "n_match": 4,
+  "reach": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.25,
+    "red circle": 0.315,
+    "blue square": 0.1625,
+    "blue circle": 0.2725
+   },
+   "scene_entropy_norm": 0.7270339389647738,
+   "scene_min_share": 0.04,
+   "switch_rate": 0.055,
+   "final_ne_first": 0.05
+  },
+  "contact": {
+   "success": 1.0,
+   "wrong": 0.0,
+   "unreached": 0.0,
+   "kind_share": {
+    "red square": 0.25,
+    "red circle": 0.315,
+    "blue square": 0.1625,
+    "blue circle": 0.2725
+   },
+   "scene_entropy_norm": 0.7270339389647738,
+   "scene_min_share": 0.04,
+   "switch_rate": 0.055,
+   "final_ne_first": 0.05
+  }
+ }
+}

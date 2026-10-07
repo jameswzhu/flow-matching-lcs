@@ -1,0 +1,1122 @@
+[
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on left\n4. Red square target\n5. Left red square",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The circle on the left\n4. The red dot\n5. The left red shape",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The circle on the left"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Blue square target\n4. Blue square on right\n5. Blue square near center-right",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Blue square target"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The lower blue dot\n4. The blue target\n5. The blue ball",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The lower blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. The red square object\n3. The red square target",
+  "descs": [
+   "The red square",
+   "The red square object",
+   "The red square target"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The small red disk\n4. The red target\n5. The red ball",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The small red disk"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue square.\n2. The upper red rectangle.\n3. The red object above the blue one.",
+  "descs": [
+   "The red square above the blue square.",
+   "The upper red rectangle.",
+   "The red object above the blue one."
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right.\n2. The red disc.\n3. The rightmost red object.\n4. The small red ball.\n5. The red target.",
+  "descs": [
+   "The red circle on the right.",
+   "The red disc.",
+   "The rightmost red object."
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The blue square object\n3. The square on the left",
+  "descs": [
+   "The blue square",
+   "The blue square object",
+   "The square on the left"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Upper red square\n3. Square above blue square\n4. Red object above center\n5. Top red shape",
+  "descs": [
+   "The red square",
+   "Upper red square",
+   "Square above blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Upper red square\n3. Square above blue square\n4. Red object above center\n5. Top red block",
+  "descs": [
+   "The red square",
+   "Upper red square",
+   "Square above blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on right\n4. Red block\n5. Top-right red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red ball\n3. The red object",
+  "descs": [
+   "The red circle",
+   "The red ball",
+   "The red object"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square with blue color\n4. Blue square on left\n5. Blue square near center-left",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square with blue color"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Lower blue dot\n4. Blue ball\n5. Bottom blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Lower blue dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on left\n4. Blue square near center\n5. Blue square with dashed line behind",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The small blue object\n3. The upper right blue dot\n4. The blue sphere\n5. The blue circle on right",
+  "descs": [
+   "The blue circle",
+   "The small blue object",
+   "The upper right blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red disk\n3. The small red object",
+  "descs": [
+   "The red circle",
+   "The red disk",
+   "The small red object"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Blue square target\n4. Blue square on table\n5. Blue square in center",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Blue square target"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The circle on the right\n4. The blue target\n5. The right blue shape",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square with red color\n4. Red square target\n5. Red square on table",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red disc\n3. The red target",
+  "descs": [
+   "The red circle",
+   "The red disc",
+   "The red target"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The upper-right circle\n4. The red dot\n5. The red target",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The upper-right circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disk\n3. The circular blue object",
+  "descs": [
+   "The blue circle",
+   "The blue disk",
+   "The circular blue object"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The circle on the right\n4. The red target\n5. The upper-right red dot",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square with red color\n4. Red square target\n5. Red square on table",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Circle on left side\n4. Lower red dot\n5. Red target object",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Circle on left side"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square with blue color\n4. Blue square target\n5. Blue square on table",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square with blue color"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The circular blue item\n4. The blue dot\n5. The blue target",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The circular blue item"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Lower red dot\n4. Circle on left\n5. Red target",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Lower red dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red ball\n3. The red object",
+  "descs": [
+   "The red circle",
+   "The red ball",
+   "The red object"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on left\n4. Blue square target\n5. Upper blue square",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square on right\n3. Square with red color\n4. Right-side red object\n5. Red block target",
+  "descs": [
+   "The red square",
+   "Red square on right",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The circular red item\n4. The red dot\n5. The red target",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The circular red item"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on bottom left\n4. Blue rectangle\n5. Bottom-left blue shape",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on bottom left"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disk\n3. The upper-left blue object",
+  "descs": [
+   "The blue circle",
+   "The blue disk",
+   "The upper-left blue object"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Bottom-left blue object\n3. Square near center-bottom\n4. Blue square on left\n5. Lower blue rectangle",
+  "descs": [
+   "The blue square",
+   "Bottom-left blue object",
+   "Square near center-bottom"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The upper right red shape\n4. The red target\n5. The red dot",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The upper right red shape"
+  ]
+ },
+ {
+  "raw": "1. Red square\n2. Red square object\n3. Square with red color",
+  "descs": [
+   "Red square",
+   "Red square object",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Object with red circle\n4. Red dot\n5. Red target",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Object with red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on left\n4. Blue square target\n5. Upper blue square",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The blue circle with a green dot inside.\n2. The blue circular object with green center.\n3. The blue circle containing a green mark.",
+  "descs": [
+   "The blue circle with a green dot inside.",
+   "The blue circular object with green center.",
+   "The blue circle containing a green mark."
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The circular red item\n4. The red dot\n5. The red target",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The circular red item"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The red dot\n4. The red ball\n5. The red target",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The red dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on left\n4. Blue square near center\n5. Left blue square",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on left\n4. Red block\n5. Left red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Object to the left of blue square\n4. Target on the left side\n5. Red disc near center-left",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Object to the left of blue square"
+  ]
+ },
+ {
+  "raw": "1. Blue square\n2. Blue rectangle\n3. Square on right\n4. Blue object below\n5. Bottom blue shape",
+  "descs": [
+   "Blue square",
+   "Blue rectangle",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Upper right blue item\n4. Blue dot\n5. Blue target",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Upper right blue item"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red ball\n3. Upper red object\n4. Red circular item\n5. Red dot",
+  "descs": [
+   "The red circle",
+   "Red ball",
+   "Upper red object"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left.\n2. Left red square.\n3. Square near top-left.\n4. Red square at upper-left corner.",
+  "descs": [
+   "The red square on the left.",
+   "Left red square.",
+   "Square near top-left."
+  ]
+ },
+ {
+  "raw": "1. The red circle at the bottom.\n2. The lower red object.\n3. The red disc near the center.",
+  "descs": [
+   "The red circle at the bottom.",
+   "The lower red object.",
+   "The red disc near the center."
+  ]
+ },
+ {
+  "raw": "1. Blue square\n2. Blue square on right\n3. Square with dashed line\n4. Blue object to right\n5. Blue square target",
+  "descs": [
+   "Blue square",
+   "Blue square on right",
+   "Square with dashed line"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The upper blue object\n3. The blue disc\n4. The blue target\n5. The blue sphere",
+  "descs": [
+   "The blue circle",
+   "The upper blue object",
+   "The blue disc"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on floor\n4. Red block\n5. Bottom red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on floor"
+  ]
+ },
+ {
+  "raw": "1. The red circle with a green arrow pointing to it.\n2. The red circular object.\n3. The target red circle.\n4. The red dot at the top.\n5. The upper red target.",
+  "descs": [
+   "The red circle with a green arrow pointing to it.",
+   "The red circular object.",
+   "The target red circle."
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on right\n4. Blue square near center\n5. Blue square with green arrow pointing to it",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Left blue dot\n4. Blue ball\n5. Blue target",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Left blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on right\n4. Red square target\n5. Upper-right red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red disc\n3. The red target",
+  "descs": [
+   "The red circle",
+   "The red disc",
+   "The red target"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom center.\n2. The bottom blue rectangle.\n3. The square below the black dot.",
+  "descs": [
+   "The blue square at the bottom center.",
+   "The bottom blue rectangle.",
+   "The square below the black dot."
+  ]
+ },
+ {
+  "raw": "1. The small black dot is moving toward the blue circle.\n2. The blue circular object.\n3. The circle on the left.\n4. The object near the top-left.",
+  "descs": [
+   "The small black dot is moving toward the blue circle.",
+   "The blue circular object.",
+   "The circle on the left."
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom.\n2. Bottom-left blue square.\n3. Square near the red circle.\n4. Lower blue rectangle.\n5. Blue square below the robot.",
+  "descs": [
+   "The blue square at the bottom.",
+   "Bottom-left blue square.",
+   "Square near the red circle."
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left.\n2. The upper-left blue object.\n3. The circle near the top.",
+  "descs": [
+   "The blue circle on the left.",
+   "The upper-left blue object.",
+   "The circle near the top."
+  ]
+ },
+ {
+  "raw": "1. The small black dot is moving toward the blue circle.\n2. The blue circular object.\n3. The circle on the left.\n4. The object near the top-left.",
+  "descs": [
+   "The small black dot is moving toward the blue circle.",
+   "The blue circular object.",
+   "The circle on the left."
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on left\n4. Bottom red shape\n5. Red block",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The small black dot is moving toward the red circle.\n2. The red circular object.\n3. The target red circle.\n4. The red dot.\n5. The red target.",
+  "descs": [
+   "The small black dot is moving toward the red circle.",
+   "The red circular object.",
+   "The target red circle."
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Upper blue square\n4. Blue square near center\n5. Blue square above black dot",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Upper blue square"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Circle on right\n4. Blue dot\n5. Right-side blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Circle on right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Circle on right side\n4. Blue dot\n5. Right blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Circle on right side"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue dot\n3. The blue object",
+  "descs": [
+   "The blue circle",
+   "The blue dot",
+   "The blue object"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square with red color\n4. Red square target\n5. Red square shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Circle on left side\n4. Red dot\n5. Left red shape",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Circle on left side"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The blue square object\n3. The square on the right\n4. The blue square target\n5. The blue square below the red one",
+  "descs": [
+   "The blue square",
+   "The blue square object",
+   "The square on the right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The circle on the right\n4. The blue target\n5. The right blue shape",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on right\n4. Blue block\n5. Center blue shape",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on upper right\n4. Upper-right red square\n5. Red square target",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on upper right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue circular object\n3. The circle on the right",
+  "descs": [
+   "The blue circle",
+   "The blue circular object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on left\n4. Red block\n5. Lower red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Circle on left side\n4. Red dot\n5. Object with red color",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Circle on left side"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. The red square object\n3. The square on the left\n4. The red block\n5. The lower red shape",
+  "descs": [
+   "The red square",
+   "The red square object",
+   "The square on the left"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Upper blue dot\n4. Blue target\n5. Blue circle near green line",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Upper blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square on left\n3. Square below red circle\n4. Lower red object\n5. Red square near blue square",
+  "descs": [
+   "The red square",
+   "Red square on left",
+   "Square below red circle"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Top-right red object\n3. Red square above right\n4. Upper red square\n5. Red square near center-right",
+  "descs": [
+   "The red square",
+   "Top-right red object",
+   "Red square above right"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Right-side red dot\n4. Target red ball\n5. Upper-right red shape",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Right-side red dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The blue rectangle\n3. The lower blue object",
+  "descs": [
+   "The blue square",
+   "The blue rectangle",
+   "The lower blue object"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue ball\n3. The left blue object",
+  "descs": [
+   "The blue circle",
+   "The blue ball",
+   "The left blue object"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Upper red object\n3. Right red circle\n4. Red square above center\n5. Red circle on right",
+  "descs": [
+   "The red square",
+   "Upper red object",
+   "Right red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom.\n2. Bottom blue rectangle.\n3. Lower blue object.\n4. Square near center-bottom.\n5. Blue block below.",
+  "descs": [
+   "The blue square at the bottom.",
+   "Bottom blue rectangle.",
+   "Lower blue object."
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Top red object\n3. Upper red box\n4. Red square above center\n5. Red square at top center",
+  "descs": [
+   "The red square",
+   "Top red object",
+   "Upper red box"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red target\n3. The right red object\n4. The red disc\n5. The red dot",
+  "descs": [
+   "The red circle",
+   "The red target",
+   "The right red object"
+  ]
+ },
+ {
+  "raw": "1. The blue square on the left.\n2. The left blue square.\n3. The blue square near the center.",
+  "descs": [
+   "The blue square on the left.",
+   "The left blue square.",
+   "The blue square near the center."
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The lower blue dot\n4. The blue target\n5. The blue square (if misinterpreted, but not accurate; better to use: The blue circle)  \n*(Note: Only one object is being moved toward \u2014 the blue circle. The other blue square is to the left, not on the path.)*\n\nActually",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The lower blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red block\n3. Lower right red object\n4. Red square on right\n5. Red square near center-right",
+  "descs": [
+   "The red square",
+   "Red block",
+   "Lower right red object"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Right-side red item\n4. Red dot\n5. Target red shape",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Right-side red item"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Left blue shape\n4. Square on left\n5. Blue square target",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Left blue shape"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Upper blue disk\n4. Blue dot\n5. Top blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Upper blue disk"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right.\n2. The red circular object.\n3. The red dot.\n4. The red object in the upper right.\n5. The red target.",
+  "descs": [
+   "The red circle on the right.",
+   "The red circular object.",
+   "The red dot."
+  ]
+ },
+ {
+  "raw": "1. The blue circle above the black dot.\n2. The upper blue object.\n3. The circle near the center.",
+  "descs": [
+   "The blue circle above the black dot.",
+   "The upper blue object.",
+   "The circle near the center."
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on right\n4. Red square target\n5. Upper red square",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red object\n3. The small red disk\n4. The red target\n5. The red ball",
+  "descs": [
+   "The red circle",
+   "The red object",
+   "The small red disk"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The circle on the right\n4. The small blue dot\n5. The blue target",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue object\n3. The circle on the right\n4. The small blue disk\n5. The blue target",
+  "descs": [
+   "The blue circle",
+   "The blue object",
+   "The circle on the right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on right\n4. Top-right red shape\n5. Red square target",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Lower red dot\n4. Red ball\n5. Red target",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Lower red dot"
+  ]
+ },
+ {
+  "raw": "1. Blue square\n2. Blue rectangle\n3. Square on right",
+  "descs": [
+   "Blue square",
+   "Blue rectangle",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The small black dot is moving toward the blue circle.\n2. The blue circular object.\n3. The circle on the left.\n4. The object near the green line.",
+  "descs": [
+   "The small black dot is moving toward the blue circle.",
+   "The blue circular object.",
+   "The circle on the left."
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The blue rectangle\n3. The square on the right",
+  "descs": [
+   "The blue square",
+   "The blue rectangle",
+   "The square on the right"
+  ]
+ },
+ {
+  "raw": "1. Red square\n2. Red object\n3. Square on left\n4. Top-left red shape\n5. Red target",
+  "descs": [
+   "Red square",
+   "Red object",
+   "Square on left"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Object with red color\n4. Upper red shape\n5. Right red dot",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Object with red color"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square on right\n3. Square with green line pointing to it\n4. Blue object near center-right\n5. Blue square with black dot approaching",
+  "descs": [
+   "The blue square",
+   "Blue square on right",
+   "Square with green line pointing to it"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The upper red object\n3. The red dot\n4. The red circular item\n5. The red target",
+  "descs": [
+   "The red circle",
+   "The upper red object",
+   "The red dot"
+  ]
+ },
+ {
+  "raw": "1. Red square\n2. Red square object\n3. Square on left side",
+  "descs": [
+   "Red square",
+   "Red square object",
+   "Square on left side"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square on right\n3. Square with red color\n4. Right-side red object\n5. Red square near center-right",
+  "descs": [
+   "The red square",
+   "Red square on right",
+   "Square with red color"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Top red object\n3. Upper red disc\n4. Red circular target\n5. Red dot above center",
+  "descs": [
+   "The red circle",
+   "Top red object",
+   "Upper red disc"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom.\n2. Bottom blue rectangle.\n3. Lower blue object.\n4. Blue square below center.\n5. Blue block beneath robot.",
+  "descs": [
+   "The blue square at the bottom.",
+   "Bottom blue rectangle.",
+   "Lower blue object."
+  ]
+ },
+ {
+  "raw": "1. The small black dot is moving toward the green arrow.\n2. The green arrow's endpoint.\n3. The target indicated by the path.\n4. The object at the arrow's end.\n5. The destination marked by the dashed line.",
+  "descs": [
+   "The small black dot is moving toward the green arrow.",
+   "The green arrow's endpoint.",
+   "The target indicated by the path."
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Upper red object\n3. Red circular item\n4. Top red dot\n5. Red circle near center",
+  "descs": [
+   "The red circle",
+   "Upper red object",
+   "Red circular item"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top.\n2. Top red circular object.\n3. Uppermost red disc.\n4. Red circle near the center-top.\n5. Red object above the center.",
+  "descs": [
+   "The red circle at the top.",
+   "Top red circular object.",
+   "Uppermost red disc."
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red box\n3. Red object\n4. Square on right\n5. Target square",
+  "descs": [
+   "The red square",
+   "Red box",
+   "Red object"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Circle with red fill\n4. Red dot\n5. Red target",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Circle with red fill"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on right\n4. Blue square target\n5. Upper blue shape",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue circular object\n3. The circle on the left\n4. The blue dot\n5. The left blue shape",
+  "descs": [
+   "The blue circle",
+   "The blue circular object",
+   "The circle on the left"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square on right\n4. Upper blue shape\n5. Blue square target",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square on right"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red block\n3. Square target\n4. Red object\n5. Bottom-right red shape",
+  "descs": [
+   "The red square",
+   "Red block",
+   "Square target"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The upper blue shape\n3. The circle above the red one\n4. The blue dot\n5. The left blue object",
+  "descs": [
+   "The blue circle",
+   "The upper blue shape",
+   "The circle above the red one"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square object\n3. Square on floor\n4. Red block\n5. Bottom red shape",
+  "descs": [
+   "The red square",
+   "Red square object",
+   "Square on floor"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red circular object\n3. Circle on left side\n4. Red dot\n5. Object near blue square",
+  "descs": [
+   "The red circle",
+   "Red circular object",
+   "Circle on left side"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. Blue square object\n3. Square with blue border\n4. Blue square target\n5. Blue square on right",
+  "descs": [
+   "The blue square",
+   "Blue square object",
+   "Square with blue border"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue round object\n3. The circle with the green arrow pointing to it",
+  "descs": [
+   "The blue circle",
+   "The blue round object",
+   "The circle with the green arrow pointing to it"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Red square on right\n3. Square below blue circle\n4. Red block near center\n5. Object to right of black dot",
+  "descs": [
+   "The red square",
+   "Red square on right",
+   "Square below blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red circle above the blue circle.\n2. The upper red object.\n3. The circle directly above the blue circle.",
+  "descs": [
+   "The red circle above the blue circle.",
+   "The upper red object.",
+   "The circle directly above the blue circle."
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. Red ball\n3. Upper red object\n4. Circle on left\n5. Red circular target",
+  "descs": [
+   "The red circle",
+   "Red ball",
+   "Upper red object"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. Bottom red object\n3. Red square at bottom\n4. Lower red block\n5. Red square near center-bottom",
+  "descs": [
+   "The red square",
+   "Bottom red object",
+   "Red square at bottom"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red circular object\n3. The red dot\n4. The red target\n5. The red ball",
+  "descs": [
+   "The red circle",
+   "The red circular object",
+   "The red dot"
+  ]
+ },
+ {
+  "raw": "1. The black dot is moving toward the blue square.\n2. The blue square on the left.\n3. The square with the green arrow pointing to it.\n4. The object at the left, near the blue circle.",
+  "descs": [
+   "The black dot is moving toward the blue square.",
+   "The blue square on the left.",
+   "The square with the green arrow pointing to it."
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue circular object\n3. Upper blue dot\n4. Blue ball\n5. Top blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue circular object",
+   "Upper blue dot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. Blue round object\n3. Upper blue dot\n4. Blue circular target\n5. Top blue shape",
+  "descs": [
+   "The blue circle",
+   "Blue round object",
+   "Upper blue dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square on the left.\n2. Left blue square.\n3. Blue square near top-left.",
+  "descs": [
+   "The blue square on the left.",
+   "Left blue square.",
+   "Blue square near top-left."
+  ]
+ },
+ {
+  "raw": "1. The blue circle above the square.\n2. The upper blue circular object.\n3. The blue dot near the top.",
+  "descs": [
+   "The blue circle above the square.",
+   "The upper blue circular object.",
+   "The blue dot near the top."
+  ]
+ }
+]

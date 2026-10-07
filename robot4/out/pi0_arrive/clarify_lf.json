@@ -1,0 +1,626 @@
+{
+ "captions": {
+  "n": 140,
+  "first_names_true_object": 0.8857142857142857,
+  "any_names_true_object": 0.9071428571428571
+ },
+ "clustering": {
+  "cluster_count_matches_truth": 0.8495238095238096
+ },
+ "options": {
+  "verbal": 947,
+  "visual": 106,
+  "verbal_share": 0.899335232668566
+ },
+ "per_prompt": {
+  "red square": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "red circle": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "blue square": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "blue circle": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "square": {
+   "success_no_ask": 0.494375,
+   "success_label_free": 0.9390625,
+   "ask_rate": 0.88,
+   "example_question": [
+    "The blue square",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 0.94
+  },
+  "circle": {
+   "success_no_ask": 0.489375,
+   "success_label_free": 0.975,
+   "ask_rate": 0.96,
+   "example_question": [
+    "The blue circle",
+    "The red circle"
+   ],
+   "success_ground_truth_labels": 0.98
+  },
+  "red": {
+   "success_no_ask": 0.49875,
+   "success_label_free": 0.95625,
+   "ask_rate": 0.92,
+   "example_question": [
+    "The red circle",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 0.96
+  },
+  "blue": {
+   "success_no_ask": 0.4975,
+   "success_label_free": 0.93875,
+   "ask_rate": 0.88,
+   "example_question": [
+    "The blue square",
+    "The blue circle"
+   ],
+   "success_ground_truth_labels": 0.94
+  },
+  "shape": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.97875,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue square",
+    "The red square",
+    "The blue circle",
+    "The red circle"
+   ],
+   "success_ground_truth_labels": 0.9903125
+  },
+  "box": {
+   "success_no_ask": 0.23625,
+   "success_label_free": 0.929375,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle",
+    "The blue square",
+    "The red circle",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "red box": {
+   "success_no_ask": 0.41375,
+   "success_label_free": 1.0,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The red circle",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "blue box": {
+   "success_no_ask": 0.491875,
+   "success_label_free": 0.96625,
+   "ask_rate": 0.92,
+   "example_question": [
+    "The blue square",
+    "The blue circle"
+   ],
+   "success_ground_truth_labels": 0.96625
+  },
+  "round object": {
+   "success_no_ask": 0.3075,
+   "success_label_free": 0.9590625,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle",
+    "The red circle",
+    "The blue square",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "red disk": {
+   "success_no_ask": 0.79875,
+   "success_label_free": 0.96125,
+   "ask_rate": 0.64,
+   "example_question": [
+    "The red circle",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 0.984375
+  },
+  "blue disk": {
+   "success_no_ask": 0.71125,
+   "success_label_free": 0.96,
+   "ask_rate": 0.76,
+   "example_question": [
+    "[path]",
+    "[path]"
+   ],
+   "success_ground_truth_labels": 0.9675
+  },
+  "crimson square": {
+   "success_no_ask": 0.768125,
+   "success_label_free": 0.948125,
+   "ask_rate": 0.56,
+   "example_question": [
+    "The blue square",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 0.960625
+  },
+  "navy circle": {
+   "success_no_ask": 0.29375,
+   "success_label_free": 0.839375,
+   "ask_rate": 0.8,
+   "example_question": [
+    "The blue circle",
+    "The red circle"
+   ],
+   "success_ground_truth_labels": 0.88
+  },
+  "a red thing": {
+   "success_no_ask": 0.493125,
+   "success_label_free": 0.97625,
+   "ask_rate": 0.96,
+   "example_question": [
+    "The red circle",
+    "The red square"
+   ],
+   "success_ground_truth_labels": 0.98
+  },
+  "something blue": {
+   "success_no_ask": 0.418125,
+   "success_label_free": 0.9771875,
+   "ask_rate": 0.96,
+   "example_question": [
+    "[path]",
+    "[path]",
+    "The red circle"
+   ],
+   "success_ground_truth_labels": 0.9784375
+  },
+  "any object": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.96234375,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle",
+    "The blue square",
+    "The red square",
+    "The red circle"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "object": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.92671875,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle",
+    "The red circle",
+    "The red square",
+    "The blue square"
+   ],
+   "success_ground_truth_labels": 0.98109375
+  }
+ },
+ "examples": [
+  {
+   "prompt": "square",
+   "clusters": [
+    "72%",
+    "28%"
+   ],
+   "descriptions": [
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The blue square",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "circle",
+   "clusters": [
+    "77%",
+    "20%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The red circle"
+   ]
+  },
+  {
+   "prompt": "red",
+   "clusters": [
+    "66%",
+    "31%"
+   ],
+   "descriptions": [
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The red circle",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "blue",
+   "clusters": [
+    "48%",
+    "47%"
+   ],
+   "descriptions": [
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ]
+   ],
+   "options": [
+    "The blue square",
+    "The blue circle"
+   ]
+  },
+  {
+   "prompt": "shape",
+   "clusters": [
+    "28%",
+    "27%",
+    "23%",
+    "22%"
+   ],
+   "descriptions": [
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ],
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ]
+   ],
+   "options": [
+    "The blue square",
+    "The red square",
+    "The blue circle",
+    "The red circle"
+   ]
+  },
+  {
+   "prompt": "box",
+   "clusters": [
+    "50%",
+    "19%",
+    "11%",
+    "11%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The blue square",
+    "The red circle",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "red box",
+   "clusters": [
+    "72%",
+    "19%"
+   ],
+   "descriptions": [
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The red circle",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "blue box",
+   "clusters": [
+    "55%",
+    "42%"
+   ],
+   "descriptions": [
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ]
+   ],
+   "options": [
+    "The blue square",
+    "The blue circle"
+   ]
+  },
+  {
+   "prompt": "round object",
+   "clusters": [
+    "39%",
+    "22%",
+    "20%",
+    "11%",
+    "5%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The red circle",
+    "The blue square",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "crimson square",
+   "clusters": [
+    "88%",
+    "12%"
+   ],
+   "descriptions": [
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The blue square",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "navy circle",
+   "clusters": [
+    "81%",
+    "11%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The red circle"
+   ]
+  },
+  {
+   "prompt": "a red thing",
+   "clusters": [
+    "55%",
+    "42%"
+   ],
+   "descriptions": [
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ]
+   ],
+   "options": [
+    "The red circle",
+    "The red square"
+   ]
+  },
+  {
+   "prompt": "any object",
+   "clusters": [
+    "38%",
+    "23%",
+    "22%",
+    "17%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The blue square",
+    "The red square",
+    "The red circle"
+   ]
+  },
+  {
+   "prompt": "object",
+   "clusters": [
+    "42%",
+    "23%",
+    "17%",
+    "16%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle",
+     "The blue object",
+     "The lower blue dot"
+    ],
+    [
+     "The red circle",
+     "The red object",
+     "The circle on the left"
+    ],
+    [
+     "The red square",
+     "Red square object",
+     "Square on left"
+    ],
+    [
+     "The blue square",
+     "Blue square object",
+     "Blue square target"
+    ]
+   ],
+   "options": [
+    "The blue circle",
+    "The red circle",
+    "The red square",
+    "The blue square"
+   ]
+  }
+ ]
+}

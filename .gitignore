@@ -5,6 +5,13 @@ __pycache__/
 
 # large rebuildable caches
 robot2/mc/prep.npz
+robot4/out/pi0_arrive/lcs_scan.npz
 
 # run logs
 robot3/logs/
+
+# pi0 (robot4/): fine-tuned expert checkpoints (1.2 GB each) and the PaliGemma tokenizer
+# (Gemma licence; fetch with the curl line in robot4/README.md)
+robot4/policies/
+robot4/assets/
+robot4/logs/

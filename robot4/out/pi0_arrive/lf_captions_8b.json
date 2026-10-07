@@ -1,0 +1,1122 @@
+[
+ {
+  "raw": "1. The red square on the left\n2. The red square near the arrow\n3. The red square the robot targets",
+  "descs": [
+   "The red square on the left",
+   "The red square near the arrow",
+   "The red square the robot targets"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the left\n2. The red circle near the square\n3. The red circle at the bottom left",
+  "descs": [
+   "The red circle on the left",
+   "The red circle near the square",
+   "The red circle at the bottom left"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the top right\n2. Top-right blue square\n3. Blue square near the dashed line",
+  "descs": [
+   "The blue square at the top right",
+   "Top-right blue square",
+   "Blue square near the dashed line"
+  ]
+ },
+ {
+  "raw": "1. The blue circle below\n2. The blue dot under the arrow\n3. The blue circle the robot targets",
+  "descs": [
+   "The blue circle below",
+   "The blue dot under the arrow",
+   "The blue circle the robot targets"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue square\n2. The red square near the blue square\n3. The red square at the top center",
+  "descs": [
+   "The red square above the blue square",
+   "The red square near the blue square",
+   "The red square at the top center"
+  ]
+ },
+ {
+  "raw": "1. The red circle near the blue square\n2. Red circle below the blue square\n3. Red circle at lower right",
+  "descs": [
+   "The red circle near the blue square",
+   "Red circle below the blue square",
+   "Red circle at lower right"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The square above the circles\n3. The blue object near the top",
+  "descs": [
+   "The blue square",
+   "The square above the circles",
+   "The blue object near the top"
+  ]
+ },
+ {
+  "raw": "1. The red circle to the right\n2. The red circle near the blue square\n3. The red circle below the blue square",
+  "descs": [
+   "The red circle to the right",
+   "The red circle near the blue square",
+   "The red circle below the blue square"
+  ]
+ },
+ {
+  "raw": "1. The blue square directly ahead\n2. The blue square in front\n3. The blue square the robot targets",
+  "descs": [
+   "The blue square directly ahead",
+   "The blue square in front",
+   "The blue square the robot targets"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue square\n2. The red square near the blue square\n3. The red square at the top right",
+  "descs": [
+   "The red square above the blue square",
+   "The red square near the blue square",
+   "The red square at the top right"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue square\n2. Top red square\n3. Red square near blue square",
+  "descs": [
+   "The red square above the blue square",
+   "Top red square",
+   "Red square near blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square at the top right\n2. The red square near the green line\n3. The red square the robot is heading for",
+  "descs": [
+   "The red square at the top right",
+   "The red square near the green line",
+   "The red square the robot is heading for"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red ball\n3. The red dot",
+  "descs": [
+   "The red circle",
+   "The red ball",
+   "The red dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square below the arrow\n2. The blue square near the black dot\n3. The blue square at the bottom",
+  "descs": [
+   "The blue square below the arrow",
+   "The blue square near the black dot",
+   "The blue square at the bottom"
+  ]
+ },
+ {
+  "raw": "1. The blue circle below the black dot.\n2. The blue circle at the arrow's end.\n3. The blue circle the robot is heading for.",
+  "descs": [
+   "The blue circle below the black dot.",
+   "The blue circle at the arrow's end.",
+   "The blue circle the robot is heading for."
+  ]
+ },
+ {
+  "raw": "1. The blue square below the arrow\n2. The blue square near the bottom\n3. The blue square to the right",
+  "descs": [
+   "The blue square below the arrow",
+   "The blue square near the bottom",
+   "The blue square to the right"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left\n2. The red square near the green line\n3. The red square at the top-left",
+  "descs": [
+   "The red square on the left",
+   "The red square near the green line",
+   "The red square at the top-left"
+  ]
+ },
+ {
+  "raw": "1. The red circle below the black dot\n2. The red circle near the blue circle\n3. The red circle at the bottom right",
+  "descs": [
+   "The red circle below the black dot",
+   "The red circle near the blue circle",
+   "The red circle at the bottom right"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the top right\n2. The blue square near the green line\n3. The blue square the robot is heading for",
+  "descs": [
+   "The blue square at the top right",
+   "The blue square near the green line",
+   "The blue square the robot is heading for"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The circle on the right\n3. The blue object ahead",
+  "descs": [
+   "The blue circle",
+   "The circle on the right",
+   "The blue object ahead"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left\n2. The red square near the blue square\n3. The red square below the blue square",
+  "descs": [
+   "The red square on the left",
+   "The red square near the blue square",
+   "The red square below the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red circle the robot is approaching.\n2. The red circle near the blue square.\n3. The red circle at the top right.",
+  "descs": [
+   "The red circle the robot is approaching.",
+   "The red circle near the blue square.",
+   "The red circle at the top right."
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. The red circle near the blue square\n3. The red circle above the blue circle",
+  "descs": [
+   "The red circle on the right",
+   "The red circle near the blue square",
+   "The red circle above the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle at the bottom\n2. The blue disc near the green line\n3. The blue object below the black dot",
+  "descs": [
+   "The blue circle at the bottom",
+   "The blue disc near the green line",
+   "The blue object below the black dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. Upper right red circle\n3. Red dot near blue square",
+  "descs": [
+   "The red circle on the right",
+   "Upper right red circle",
+   "Red dot near blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left\n2. The red square near the blue square\n3. The red square at the top-left",
+  "descs": [
+   "The red square on the left",
+   "The red square near the blue square",
+   "The red square at the top-left"
+  ]
+ },
+ {
+  "raw": "1. The red circle below the square\n2. The red circle near the blue square\n3. The red circle at the bottom left",
+  "descs": [
+   "The red circle below the square",
+   "The red circle near the blue square",
+   "The red circle at the bottom left"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the red circle\n2. The blue shape near the red square\n3. The object directly above the lower red circle",
+  "descs": [
+   "The blue square above the red circle",
+   "The blue shape near the red square",
+   "The object directly above the lower red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disc\n3. The blue sphere",
+  "descs": [
+   "The blue circle",
+   "The blue disc",
+   "The blue sphere"
+  ]
+ },
+ {
+  "raw": "1. The red circle below the square\n2. The red circle near the blue square\n3. The red circle to the left of the blue circle",
+  "descs": [
+   "The red circle below the square",
+   "The red circle near the blue square",
+   "The red circle to the left of the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red circle below the square\n2. The red circle near the blue square\n3. The red circle to the left of the blue circle",
+  "descs": [
+   "The red circle below the square",
+   "The red circle near the blue square",
+   "The red circle to the left of the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the right\n2. The blue dot near the robot\n3. The blue shape to the right",
+  "descs": [
+   "The blue circle on the right",
+   "The blue dot near the robot",
+   "The blue shape to the right"
+  ]
+ },
+ {
+  "raw": "1. The red square on the right\n2. Red rectangle ahead\n3. Object in robot\u2019s path",
+  "descs": [
+   "The red square on the right",
+   "Red rectangle ahead",
+   "Object in robot\u2019s path"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top right\n2. The red ball near the upper edge\n3. The red shape above the square",
+  "descs": [
+   "The red circle at the top right",
+   "The red ball near the upper edge",
+   "The red shape above the square"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom\n2. Bottom-left blue square\n3. Blue square near the path",
+  "descs": [
+   "The blue square at the bottom",
+   "Bottom-left blue square",
+   "Blue square near the path"
+  ]
+ },
+ {
+  "raw": "1. The blue circle at the top\n2. The blue circle near the top\n3. The blue circle above the square",
+  "descs": [
+   "The blue circle at the top",
+   "The blue circle near the top",
+   "The blue circle above the square"
+  ]
+ },
+ {
+  "raw": "1. Blue square at bottom left\n2. Bottom-left blue square\n3. Square below the black dot",
+  "descs": [
+   "Blue square at bottom left",
+   "Bottom-left blue square",
+   "Square below the black dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top right\n2. Top-right red circular object\n3. Red dot near the upper edge",
+  "descs": [
+   "The red circle at the top right",
+   "Top-right red circular object",
+   "Red dot near the upper edge"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red round object\n3. The red dot",
+  "descs": [
+   "The red circle",
+   "The red round object",
+   "The red dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red dot\n3. The red shape",
+  "descs": [
+   "The red circle",
+   "The red dot",
+   "The red shape"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the black dot.\n2. The blue square near the green path.\n3. The blue square at the top center.",
+  "descs": [
+   "The blue square above the black dot.",
+   "The blue square near the green path.",
+   "The blue square at the top center."
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue round object\n3. The blue dot",
+  "descs": [
+   "The blue circle",
+   "The blue round object",
+   "The blue dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle directly ahead\n2. Object in front of the robot\n3. Red shape the robot is approaching",
+  "descs": [
+   "The red circle directly ahead",
+   "Object in front of the robot",
+   "Red shape the robot is approaching"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red ball\n3. The red shape",
+  "descs": [
+   "The red circle",
+   "The red ball",
+   "The red shape"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the red circle\n2. The blue square near the red circle\n3. The blue square to the left of the red square",
+  "descs": [
+   "The blue square above the red circle",
+   "The blue square near the red circle",
+   "The blue square to the left of the red square"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left\n2. Red square near the blue circle\n3. Leftmost red square",
+  "descs": [
+   "The red square on the left",
+   "Red square near the blue circle",
+   "Leftmost red square"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red dot\n3. The red ball",
+  "descs": [
+   "The red circle",
+   "The red dot",
+   "The red ball"
+  ]
+ },
+ {
+  "raw": "1. The blue square below the robot\n2. The blue rectangle under the robot\n3. The blue shape directly beneath the robot",
+  "descs": [
+   "The blue square below the robot",
+   "The blue rectangle under the robot",
+   "The blue shape directly beneath the robot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle the robot is approaching.\n2. The blue circle near the green line.\n3. The blue circle at the end of the path.",
+  "descs": [
+   "The blue circle the robot is approaching.",
+   "The blue circle near the green line.",
+   "The blue circle at the end of the path."
+  ]
+ },
+ {
+  "raw": "1. Red circle above red square\n2. Top red circle\n3. Red circle left of blue circle",
+  "descs": [
+   "Red circle above red square",
+   "Top red circle",
+   "Red circle left of blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red square on the left\n2. The red square near the arrow\n3. The red square at the top-left",
+  "descs": [
+   "The red square on the left",
+   "The red square near the arrow",
+   "The red square at the top-left"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the bottom\n2. The red ball near the green arrow\n3. The red dot below the black dot",
+  "descs": [
+   "The red circle at the bottom",
+   "The red ball near the green arrow",
+   "The red dot below the black dot"
+  ]
+ },
+ {
+  "raw": "1. The blue square on the right\n2. The blue square near the black dot\n3. The blue square at the arrow's end",
+  "descs": [
+   "The blue square on the right",
+   "The blue square near the black dot",
+   "The blue square at the arrow's end"
+  ]
+ },
+ {
+  "raw": "1. The blue circle at the top\n2. Uppermost blue circular object\n3. Blue dot near the top",
+  "descs": [
+   "The blue circle at the top",
+   "Uppermost blue circular object",
+   "Blue dot near the top"
+  ]
+ },
+ {
+  "raw": "1. The red square below the robot\n2. The red square at the robot's feet\n3. The red square directly under the robot",
+  "descs": [
+   "The red square below the robot",
+   "The red square at the robot's feet",
+   "The red square directly under the robot"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top\n2. The red circle above the square\n3. The red circle near the blue square",
+  "descs": [
+   "The red circle at the top",
+   "The red circle above the square",
+   "The red circle near the blue square"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the red one\n2. The blue square near the red circle\n3. The blue square at the top right",
+  "descs": [
+   "The blue square above the red one",
+   "The blue square near the red circle",
+   "The blue square at the top right"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the path\n3. The blue circle below the red one",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the path",
+   "The blue circle below the red one"
+  ]
+ },
+ {
+  "raw": "1. The red square at the top right\n2. Top right red square\n3. Red square near the green arrow",
+  "descs": [
+   "The red square at the top right",
+   "Top right red square",
+   "Red square near the green arrow"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the left\n2. Red circle near blue circle\n3. Red circle at lower left",
+  "descs": [
+   "The red circle on the left",
+   "Red circle near blue circle",
+   "Red circle at lower left"
+  ]
+ },
+ {
+  "raw": "1. Blue square at bottom\n2. Bottom blue rectangular object\n3. Blue box under the arrow",
+  "descs": [
+   "Blue square at bottom",
+   "Bottom blue rectangular object",
+   "Blue box under the arrow"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue ball near the top\n3. The blue dot at the upper left",
+  "descs": [
+   "The blue circle on the left",
+   "The blue ball near the top",
+   "The blue dot at the upper left"
+  ]
+ },
+ {
+  "raw": "1. Blue square below arrow\n2. Bottom blue square\n3. Square under robot's path",
+  "descs": [
+   "Blue square below arrow",
+   "Bottom blue square",
+   "Square under robot's path"
+  ]
+ },
+ {
+  "raw": "1. Blue circle above red circle\n2. Top-left blue circle\n3. Blue circle near red square",
+  "descs": [
+   "Blue circle above red circle",
+   "Top-left blue circle",
+   "Blue circle near red square"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the red square\n3. The blue circle above the red circle",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the red square",
+   "The blue circle above the red circle"
+  ]
+ },
+ {
+  "raw": "1. The red square below\n2. The red box at the bottom\n3. The red rectangle under the arrow",
+  "descs": [
+   "The red square below",
+   "The red box at the bottom",
+   "The red rectangle under the arrow"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red dot\n3. The red target",
+  "descs": [
+   "The red circle",
+   "The red dot",
+   "The red target"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the red one\n2. The blue circle to the right\n3. The blue shape near the top",
+  "descs": [
+   "The blue square above the red one",
+   "The blue circle to the right",
+   "The blue shape near the top"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disc\n3. The blue object",
+  "descs": [
+   "The blue circle",
+   "The blue disc",
+   "The blue object"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue ball\n3. The blue dot",
+  "descs": [
+   "The blue circle",
+   "The blue ball",
+   "The blue dot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle near the top\n2. The blue circle above the red square\n3. The blue circle to the right of the blue square",
+  "descs": [
+   "The blue circle near the top",
+   "The blue circle above the red square",
+   "The blue circle to the right of the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue circle\n2. The red square near the blue circle\n3. The red square to the right of the red circle",
+  "descs": [
+   "The red square above the blue circle",
+   "The red square near the blue circle",
+   "The red square to the right of the red circle"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the left\n2. The red circle near the blue square\n3. The red circle at the path's end",
+  "descs": [
+   "The red circle on the left",
+   "The red circle near the blue square",
+   "The red circle at the path's end"
+  ]
+ },
+ {
+  "raw": "1. Blue square below black dot\n2. Object directly under robot\n3. Blue square in robot\u2019s path",
+  "descs": [
+   "Blue square below black dot",
+   "Object directly under robot",
+   "Blue square in robot\u2019s path"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disc\n3. The blue object",
+  "descs": [
+   "The blue circle",
+   "The blue disc",
+   "The blue object"
+  ]
+ },
+ {
+  "raw": "1. Blue square below black dot\n2. Object directly under robot\n3. Blue shape in robot\u2019s path",
+  "descs": [
+   "Blue square below black dot",
+   "Object directly under robot",
+   "Blue shape in robot\u2019s path"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue circle\n2. The red square near the blue circle\n3. The red square to the right of the blue circle",
+  "descs": [
+   "The red square above the blue circle",
+   "The red square near the blue circle",
+   "The red square to the right of the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue ball\n3. The circle near the red square",
+  "descs": [
+   "The blue circle",
+   "The blue ball",
+   "The circle near the red square"
+  ]
+ },
+ {
+  "raw": "1. The red square below the robot\n2. The red square directly beneath\n3. The red square the robot targets",
+  "descs": [
+   "The red square below the robot",
+   "The red square directly beneath",
+   "The red square the robot targets"
+  ]
+ },
+ {
+  "raw": "1. The red circle near the blue square\n2. Red circle above the red square\n3. Red circle left of the blue circle",
+  "descs": [
+   "The red circle near the blue square",
+   "Red circle above the red square",
+   "Red circle left of the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red square below the blue square\n2. The red square near the blue square\n3. The red square to the right of the blue square",
+  "descs": [
+   "The red square below the blue square",
+   "The red square near the blue square",
+   "The red square to the right of the blue square"
+  ]
+ },
+ {
+  "raw": "1. The blue circle the robot is approaching.\n2. The blue circle near the red circle.\n3. The blue circle above the red square.",
+  "descs": [
+   "The blue circle the robot is approaching.",
+   "The blue circle near the red circle.",
+   "The blue circle above the red square."
+  ]
+ },
+ {
+  "raw": "1. The red square below the blue square\n2. The red square near the blue square\n3. The red square to the right of the blue square",
+  "descs": [
+   "The red square below the blue square",
+   "The red square near the blue square",
+   "The red square to the right of the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square above center\n2. Top red square\n3. Red box near the top",
+  "descs": [
+   "The red square above center",
+   "Top red square",
+   "Red box near the top"
+  ]
+ },
+ {
+  "raw": "1. The red circle ahead\n2. The red ball on the right\n3. The red object in front",
+  "descs": [
+   "The red circle ahead",
+   "The red ball on the right",
+   "The red object in front"
+  ]
+ },
+ {
+  "raw": "1. Blue square below center\n2. Bottom center blue rectangle\n3. Object under robot's path",
+  "descs": [
+   "Blue square below center",
+   "Bottom center blue rectangle",
+   "Object under robot's path"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue ball near the top-left\n3. The blue shape at the upper left",
+  "descs": [
+   "The blue circle on the left",
+   "The blue ball near the top-left",
+   "The blue shape at the upper left"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. Red dot near the top-right\n3. Upper-right red shape",
+  "descs": [
+   "The red circle on the right",
+   "Red dot near the top-right",
+   "Upper-right red shape"
+  ]
+ },
+ {
+  "raw": "1. The blue square at the bottom\n2. The square directly below the robot\n3. The blue box under the path",
+  "descs": [
+   "The blue square at the bottom",
+   "The square directly below the robot",
+   "The blue box under the path"
+  ]
+ },
+ {
+  "raw": "1. The red square at the top\n2. Topmost red square object\n3. Red box above the blue ones",
+  "descs": [
+   "The red square at the top",
+   "Topmost red square object",
+   "Red box above the blue ones"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. Red circle at the end of the path\n3. Target red circle ahead",
+  "descs": [
+   "The red circle on the right",
+   "Red circle at the end of the path",
+   "Target red circle ahead"
+  ]
+ },
+ {
+  "raw": "1. The blue square on the left\n2. The square next to the black dot\n3. The blue shape on the left side",
+  "descs": [
+   "The blue square on the left",
+   "The square next to the black dot",
+   "The blue shape on the left side"
+  ]
+ },
+ {
+  "raw": "1. The blue circle below\n2. The blue dot near the center\n3. The blue shape at the bottom",
+  "descs": [
+   "The blue circle below",
+   "The blue dot near the center",
+   "The blue shape at the bottom"
+  ]
+ },
+ {
+  "raw": "1. The red square on the right\n2. Red square near the blue circle\n3. Red square below the black dot",
+  "descs": [
+   "The red square on the right",
+   "Red square near the blue circle",
+   "Red square below the black dot"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. Red circle ahead\n3. Target red circle",
+  "descs": [
+   "The red circle on the right",
+   "Red circle ahead",
+   "Target red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue square on the left\n2. The blue square near the arrow\n3. The square below the blue circle",
+  "descs": [
+   "The blue square on the left",
+   "The blue square near the arrow",
+   "The square below the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle above the black dot.\n2. The blue circle near the top.\n3. The blue circle the robot is heading for.",
+  "descs": [
+   "The blue circle above the black dot.",
+   "The blue circle near the top.",
+   "The blue circle the robot is heading for."
+  ]
+ },
+ {
+  "raw": "1. Blue circle above center\n2. Top blue circle\n3. Blue dot near top",
+  "descs": [
+   "Blue circle above center",
+   "Top blue circle",
+   "Blue dot near top"
+  ]
+ },
+ {
+  "raw": "1. The blue circle above the robot\n2. The blue dot near the top\n3. The blue circle on the upper left",
+  "descs": [
+   "The blue circle above the robot",
+   "The blue dot near the top",
+   "The blue circle on the upper left"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue circle\n2. The red square near the blue dot\n3. The red square at the top right",
+  "descs": [
+   "The red square above the blue circle",
+   "The red square near the blue dot",
+   "The red square at the top right"
+  ]
+ },
+ {
+  "raw": "1. The red circle the robot is approaching.\n2. The red circle near the blue circle.\n3. The red circle below the black dot.",
+  "descs": [
+   "The red circle the robot is approaching.",
+   "The red circle near the blue circle.",
+   "The red circle below the black dot."
+  ]
+ },
+ {
+  "raw": "1. Blue square on left\n2. Blue square near robot\n3. Blue square with green arrow",
+  "descs": [
+   "Blue square on left",
+   "Blue square near robot",
+   "Blue square with green arrow"
+  ]
+ },
+ {
+  "raw": "1. The blue circle the robot is approaching.\n2. The blue circle near the red square.\n3. The blue circle below the red square.",
+  "descs": [
+   "The blue circle the robot is approaching.",
+   "The blue circle near the red square.",
+   "The blue circle below the red square."
+  ]
+ },
+ {
+  "raw": "1. The red square at the top right\n2. The red square near the green arrow\n3. The red square above the blue square",
+  "descs": [
+   "The red square at the top right",
+   "The red square near the green arrow",
+   "The red square above the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red circle below the black dot.\n2. The red circle at the arrow's end.\n3. The red circle the robot is heading for.",
+  "descs": [
+   "The red circle below the black dot.",
+   "The red circle at the arrow's end.",
+   "The red circle the robot is heading for."
+  ]
+ },
+ {
+  "raw": "1. The blue square the robot is approaching.\n2. The square directly ahead.\n3. The blue object in front.",
+  "descs": [
+   "The blue square the robot is approaching.",
+   "The square directly ahead.",
+   "The blue object in front."
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the red square\n3. The blue circle at the upper left",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the red square",
+   "The blue circle at the upper left"
+  ]
+ },
+ {
+  "raw": "1. Blue square on right\n2. Blue square near robot\n3. Blue square in front",
+  "descs": [
+   "Blue square on right",
+   "Blue square near robot",
+   "Blue square in front"
+  ]
+ },
+ {
+  "raw": "1. Red square with green arrow pointing to it\n2. Object directly ahead of robot\n3. Target the robot is approaching",
+  "descs": [
+   "Red square with green arrow pointing to it",
+   "Object directly ahead of robot",
+   "Target the robot is approaching"
+  ]
+ },
+ {
+  "raw": "1. The red square above the blue circle\n2. The red square near the blue square\n3. The red square at the top left",
+  "descs": [
+   "The red square above the blue circle",
+   "The red square near the blue square",
+   "The red square at the top left"
+  ]
+ },
+ {
+  "raw": "1. Blue square on right\n2. Blue square near robot\n3. Blue square below red circle",
+  "descs": [
+   "Blue square on right",
+   "Blue square near robot",
+   "Blue square below red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the red square\n3. The blue circle at the arrow's end",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the red square",
+   "The blue circle at the arrow's end"
+  ]
+ },
+ {
+  "raw": "1. Red square left of blue circle\n2. Red square near blue circle\n3. Red square above blue square",
+  "descs": [
+   "Red square left of blue circle",
+   "Red square near blue circle",
+   "Red square above blue square"
+  ]
+ },
+ {
+  "raw": "1. The red square at the top right\n2. Red square near the green arrow\n3. Top right red square",
+  "descs": [
+   "The red square at the top right",
+   "Red square near the green arrow",
+   "Top right red square"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top\n2. The red dot near the top\n3. The red shape above the square",
+  "descs": [
+   "The red circle at the top",
+   "The red dot near the top",
+   "The red shape above the square"
+  ]
+ },
+ {
+  "raw": "1. Blue square at bottom\n2. Bottom blue rectangular object\n3. Square below the black dot",
+  "descs": [
+   "Blue square at bottom",
+   "Bottom blue rectangular object",
+   "Square below the black dot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the red one\n3. The blue circle at the top-left",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the red one",
+   "The blue circle at the top-left"
+  ]
+ },
+ {
+  "raw": "1. The red circle above the blue square\n2. Top red circle\n3. Red circle near blue square",
+  "descs": [
+   "The red circle above the blue square",
+   "Top red circle",
+   "Red circle near blue square"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the top\n2. Uppermost red circular object\n3. Red dot near the top",
+  "descs": [
+   "The red circle at the top",
+   "Uppermost red circular object",
+   "Red dot near the top"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. The red rectangle\n3. The square near the blue square",
+  "descs": [
+   "The red square",
+   "The red rectangle",
+   "The square near the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red disc\n3. The red shape",
+  "descs": [
+   "The red circle",
+   "The red disc",
+   "The red shape"
+  ]
+ },
+ {
+  "raw": "1. The blue square above the red circle\n2. The blue square near the red circle\n3. The blue square to the right of the red circle",
+  "descs": [
+   "The blue square above the red circle",
+   "The blue square near the red circle",
+   "The blue square to the right of the red circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle\n2. The blue disc\n3. The blue round object",
+  "descs": [
+   "The blue circle",
+   "The blue disc",
+   "The blue round object"
+  ]
+ },
+ {
+  "raw": "1. The blue square\n2. The red square\n3. The blue circle",
+  "descs": [
+   "The blue square",
+   "The red square",
+   "The blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red square\n2. The red rectangle\n3. The square near the blue square",
+  "descs": [
+   "The red square",
+   "The red rectangle",
+   "The square near the blue square"
+  ]
+ },
+ {
+  "raw": "1. Blue circle left of robot\n2. Circle near blue square\n3. Object directly ahead",
+  "descs": [
+   "Blue circle left of robot",
+   "Circle near blue square",
+   "Object directly ahead"
+  ]
+ },
+ {
+  "raw": "1. The red square below\n2. Bottom red rectangle\n3. Red box under the robot",
+  "descs": [
+   "The red square below",
+   "Bottom red rectangle",
+   "Red box under the robot"
+  ]
+ },
+ {
+  "raw": "1. The red circle\n2. The red dot\n3. The red shape",
+  "descs": [
+   "The red circle",
+   "The red dot",
+   "The red shape"
+  ]
+ },
+ {
+  "raw": "1. Blue square on right\n2. Square with green arrow pointing to it\n3. Object directly ahead of robot",
+  "descs": [
+   "Blue square on right",
+   "Square with green arrow pointing to it",
+   "Object directly ahead of robot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle on the left\n2. The blue circle near the red circle\n3. The blue circle at the arrow's end",
+  "descs": [
+   "The blue circle on the left",
+   "The blue circle near the red circle",
+   "The blue circle at the arrow's end"
+  ]
+ },
+ {
+  "raw": "1. Red square below blue circle\n2. Red square near blue circle\n3. Red square under blue circle",
+  "descs": [
+   "Red square below blue circle",
+   "Red square near blue circle",
+   "Red square under blue circle"
+  ]
+ },
+ {
+  "raw": "1. The blue circle below the red one.\n2. The blue circle left of the red square.\n3. The blue circle near the black dot.",
+  "descs": [
+   "The blue circle below the red one.",
+   "The blue circle left of the red square.",
+   "The blue circle near the black dot."
+  ]
+ },
+ {
+  "raw": "1. The red circle above the blue circle\n2. The red circle left of the blue square\n3. The red circle near the blue circle",
+  "descs": [
+   "The red circle above the blue circle",
+   "The red circle left of the blue square",
+   "The red circle near the blue circle"
+  ]
+ },
+ {
+  "raw": "1. The red square below\n2. Bottom red square object\n3. Red square under the robot",
+  "descs": [
+   "The red square below",
+   "Bottom red square object",
+   "Red square under the robot"
+  ]
+ },
+ {
+  "raw": "1. The red circle at the end of the path\n2. The red circle near the top right\n3. The red circle the robot is heading for",
+  "descs": [
+   "The red circle at the end of the path",
+   "The red circle near the top right",
+   "The red circle the robot is heading for"
+  ]
+ },
+ {
+  "raw": "1. Blue square on left\n2. Leftmost blue square\n3. Blue square near robot",
+  "descs": [
+   "Blue square on left",
+   "Leftmost blue square",
+   "Blue square near robot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle near the square\n2. Top-left blue circular object\n3. Blue dot above the blue square",
+  "descs": [
+   "The blue circle near the square",
+   "Top-left blue circular object",
+   "Blue dot above the blue square"
+  ]
+ },
+ {
+  "raw": "1. The red circle on the right\n2. Top-right red circular object\n3. Red dot near the upper right",
+  "descs": [
+   "The red circle on the right",
+   "Top-right red circular object",
+   "Red dot near the upper right"
+  ]
+ },
+ {
+  "raw": "1. Blue square on left\n2. Leftmost blue square\n3. Blue square near robot",
+  "descs": [
+   "Blue square on left",
+   "Leftmost blue square",
+   "Blue square near robot"
+  ]
+ },
+ {
+  "raw": "1. The blue circle above the square\n2. Top blue circle\n3. Blue circle near the square",
+  "descs": [
+   "The blue circle above the square",
+   "Top blue circle",
+   "Blue circle near the square"
+  ]
+ }
+]

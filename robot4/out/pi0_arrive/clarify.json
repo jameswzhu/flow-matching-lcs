@@ -1,0 +1,544 @@
+{
+ "detection": {
+  "auroc": 0.9412341772151899,
+  "ci": [
+   0.9268119360755703,
+   0.9551374784154713
+  ],
+  "within_scene": 0.9439911926308987,
+  "multimodal_rate": 0.7523809523809524,
+  "tau": 0.03125,
+  "test_balanced_accuracy": 0.8892320085929108
+ },
+ "per_prompt": {
+  "red square": {
+   "n_match": 1,
+   "trained": true,
+   "success_no_ask": 1.0,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 0.0,
+   "n_options_mean": 2.0,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "red circle": {
+   "n_match": 1,
+   "trained": true,
+   "success_no_ask": 1.0,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 0.0,
+   "n_options_mean": 2.0,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "blue square": {
+   "n_match": 1,
+   "trained": true,
+   "success_no_ask": 1.0,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 0.0,
+   "n_options_mean": 2.0,
+   "most_common_question": [
+    "red square",
+    "blue square"
+   ]
+  },
+  "blue circle": {
+   "n_match": 1,
+   "trained": true,
+   "success_no_ask": 1.0,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 0.0,
+   "n_options_mean": 2.0,
+   "most_common_question": [
+    "red square",
+    "blue circle"
+   ]
+  },
+  "square": {
+   "n_match": 2,
+   "trained": true,
+   "success_no_ask": 0.494375,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.94,
+   "ask_rate": 0.88,
+   "n_options_mean": 2.08,
+   "most_common_question": [
+    "red square",
+    "blue square"
+   ]
+  },
+  "circle": {
+   "n_match": 2,
+   "trained": true,
+   "success_no_ask": 0.489375,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.98,
+   "ask_rate": 0.96,
+   "n_options_mean": 2.36,
+   "most_common_question": [
+    "red circle",
+    "blue circle"
+   ]
+  },
+  "red": {
+   "n_match": 2,
+   "trained": true,
+   "success_no_ask": 0.49875,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.96,
+   "ask_rate": 0.92,
+   "n_options_mean": 2.0,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "blue": {
+   "n_match": 2,
+   "trained": true,
+   "success_no_ask": 0.4975,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.94,
+   "ask_rate": 0.88,
+   "n_options_mean": 2.08,
+   "most_common_question": [
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "shape": {
+   "n_match": 4,
+   "trained": true,
+   "success_no_ask": 0.25,
+   "success_always_ask": 0.9903125,
+   "success_ftle_gated": 0.9903125,
+   "ask_rate": 1.0,
+   "n_options_mean": 3.96,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "box": {
+   "n_match": 2,
+   "trained": false,
+   "success_no_ask": 0.23625,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 1.0,
+   "n_options_mean": 4.0,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "red box": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.41375,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 1.0,
+   "n_options_mean": 2.16,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "blue box": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.491875,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.96625,
+   "ask_rate": 0.92,
+   "n_options_mean": 2.44,
+   "most_common_question": [
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "round object": {
+   "n_match": 2,
+   "trained": false,
+   "success_no_ask": 0.3075,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 1.0,
+   "n_options_mean": 3.92,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "red disk": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.79875,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.984375,
+   "ask_rate": 0.88,
+   "n_options_mean": 2.04,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "blue disk": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.71125,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.9675,
+   "ask_rate": 0.8,
+   "n_options_mean": 2.04,
+   "most_common_question": [
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "crimson square": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.768125,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.960625,
+   "ask_rate": 0.68,
+   "n_options_mean": 2.12,
+   "most_common_question": [
+    "red square",
+    "blue square"
+   ]
+  },
+  "navy circle": {
+   "n_match": 1,
+   "trained": false,
+   "success_no_ask": 0.29375,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.88,
+   "ask_rate": 0.84,
+   "n_options_mean": 2.2,
+   "most_common_question": [
+    "red circle",
+    "blue circle"
+   ]
+  },
+  "a red thing": {
+   "n_match": 2,
+   "trained": false,
+   "success_no_ask": 0.493125,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.98,
+   "ask_rate": 0.96,
+   "n_options_mean": 2.2,
+   "most_common_question": [
+    "red square",
+    "red circle"
+   ]
+  },
+  "something blue": {
+   "n_match": 2,
+   "trained": false,
+   "success_no_ask": 0.418125,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 0.9784375,
+   "ask_rate": 0.96,
+   "n_options_mean": 3.6,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "any object": {
+   "n_match": 4,
+   "trained": false,
+   "success_no_ask": 0.25,
+   "success_always_ask": 1.0,
+   "success_ftle_gated": 1.0,
+   "ask_rate": 1.0,
+   "n_options_mean": 4.0,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  },
+  "object": {
+   "n_match": 4,
+   "trained": false,
+   "success_no_ask": 0.25,
+   "success_always_ask": 0.98109375,
+   "success_ftle_gated": 0.98109375,
+   "ask_rate": 1.0,
+   "n_options_mean": 3.92,
+   "most_common_question": [
+    "red square",
+    "red circle",
+    "blue square",
+    "blue circle"
+   ]
+  }
+ },
+ "examples": [
+  {
+   "prompt": "red square",
+   "robot_spread": {
+    "red square": 1.0
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the red square or the red circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "red circle",
+   "robot_spread": {
+    "red circle": 1.0
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the red square or the red circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "blue square",
+   "robot_spread": {
+    "blue square": 1.0
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the red square or the blue square?",
+   "value": 1.0
+  },
+  {
+   "prompt": "blue circle",
+   "robot_spread": {
+    "blue circle": 1.0
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the red square or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "square",
+   "robot_spread": {
+    "red square": 0.28,
+    "blue square": 0.72
+   },
+   "ftle_score": 0.03125,
+   "asks": true,
+   "question": "Do you mean the red square or the blue square?",
+   "value": 1.0
+  },
+  {
+   "prompt": "circle",
+   "robot_spread": {
+    "red circle": 0.2,
+    "blue circle": 0.8
+   },
+   "ftle_score": 0.09375,
+   "asks": true,
+   "question": "Do you mean the red circle or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "red",
+   "robot_spread": {
+    "red square": 0.31,
+    "red circle": 0.67,
+    "blue circle": 0.02
+   },
+   "ftle_score": 0.125,
+   "asks": true,
+   "question": "Do you mean the red square or the red circle?",
+   "value": 0.984
+  },
+  {
+   "prompt": "blue",
+   "robot_spread": {
+    "blue square": 0.48,
+    "blue circle": 0.52
+   },
+   "ftle_score": 0.125,
+   "asks": true,
+   "question": "Do you mean the blue square or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "shape",
+   "robot_spread": {
+    "red square": 0.27,
+    "red circle": 0.22,
+    "blue square": 0.28,
+    "blue circle": 0.23
+   },
+   "ftle_score": 0.21875,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, the blue square, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "box",
+   "robot_spread": {
+    "red square": 0.11,
+    "red circle": 0.11,
+    "blue square": 0.19,
+    "blue circle": 0.59
+   },
+   "ftle_score": 0.125,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, the blue square, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "red box",
+   "robot_spread": {
+    "red square": 0.22,
+    "red circle": 0.75,
+    "blue circle": 0.03
+   },
+   "ftle_score": 0.125,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "blue box",
+   "robot_spread": {
+    "blue square": 0.55,
+    "blue circle": 0.45
+   },
+   "ftle_score": 0.1875,
+   "asks": true,
+   "question": "Do you mean the blue square or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "round object",
+   "robot_spread": {
+    "red square": 0.05,
+    "red circle": 0.23,
+    "blue square": 0.11,
+    "blue circle": 0.61
+   },
+   "ftle_score": 0.0625,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, the blue square, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "red disk",
+   "robot_spread": {
+    "red square": 0.06,
+    "red circle": 0.92,
+    "blue circle": 0.02
+   },
+   "ftle_score": 0.0625,
+   "asks": true,
+   "question": "Do you mean the red square or the red circle?",
+   "value": 0.984
+  },
+  {
+   "prompt": "blue disk",
+   "robot_spread": {
+    "blue square": 0.19,
+    "blue circle": 0.81
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the blue square or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "crimson square",
+   "robot_spread": {
+    "red square": 0.12,
+    "blue square": 0.88
+   },
+   "ftle_score": 0.03125,
+   "asks": true,
+   "question": "Do you mean the red square or the blue square?",
+   "value": 1.0
+  },
+  {
+   "prompt": "navy circle",
+   "robot_spread": {
+    "red circle": 0.12,
+    "blue circle": 0.88
+   },
+   "ftle_score": 0.0625,
+   "asks": true,
+   "question": "Do you mean the red circle or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "a red thing",
+   "robot_spread": {
+    "red square": 0.42,
+    "red circle": 0.56,
+    "blue circle": 0.02
+   },
+   "ftle_score": 0.125,
+   "asks": true,
+   "question": "Do you mean the red square or the red circle?",
+   "value": 0.984
+  },
+  {
+   "prompt": "something blue",
+   "robot_spread": {
+    "red square": 0.05,
+    "blue square": 0.39,
+    "blue circle": 0.56
+   },
+   "ftle_score": 0.0,
+   "asks": false,
+   "question": "Do you mean the red square, the blue square, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "any object",
+   "robot_spread": {
+    "red square": 0.22,
+    "red circle": 0.17,
+    "blue square": 0.23,
+    "blue circle": 0.38
+   },
+   "ftle_score": 0.1875,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, the blue square, or the blue circle?",
+   "value": 1.0
+  },
+  {
+   "prompt": "object",
+   "robot_spread": {
+    "red square": 0.17,
+    "red circle": 0.25,
+    "blue square": 0.16,
+    "blue circle": 0.42
+   },
+   "ftle_score": 0.21875,
+   "asks": true,
+   "question": "Do you mean the red square, the red circle, the blue square, or the blue circle?",
+   "value": 1.0
+  }
+ ]
+}

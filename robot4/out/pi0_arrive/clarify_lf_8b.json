@@ -1,0 +1,626 @@
+{
+ "captions": {
+  "n": 140,
+  "first_names_true_object": 0.7142857142857143,
+  "any_names_true_object": 0.8071428571428572
+ },
+ "clustering": {
+  "cluster_count_matches_truth": 0.8457142857142858
+ },
+ "options": {
+  "verbal": 966,
+  "visual": 89,
+  "verbal_share": 0.9156398104265403
+ },
+ "per_prompt": {
+  "red square": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "red circle": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "blue square": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "blue circle": {
+   "success_no_ask": 1.0,
+   "success_label_free": 1.0,
+   "ask_rate": 0.0,
+   "example_question": null,
+   "success_ground_truth_labels": 1.0
+  },
+  "square": {
+   "success_no_ask": 0.494375,
+   "success_label_free": 0.89,
+   "ask_rate": 0.88,
+   "example_question": [
+    "The blue square at the top right",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 0.94
+  },
+  "circle": {
+   "success_no_ask": 0.489375,
+   "success_label_free": 0.9390625,
+   "ask_rate": 0.96,
+   "example_question": [
+    "The blue circle below",
+    "The red circle on the left"
+   ],
+   "success_ground_truth_labels": 0.98
+  },
+  "red": {
+   "success_no_ask": 0.49875,
+   "success_label_free": 0.9159375,
+   "ask_rate": 0.92,
+   "example_question": [
+    "The red circle on the left",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 0.96
+  },
+  "blue": {
+   "success_no_ask": 0.4975,
+   "success_label_free": 0.88375,
+   "ask_rate": 0.88,
+   "example_question": [
+    "The blue square at the top right",
+    "The blue circle below"
+   ],
+   "success_ground_truth_labels": 0.94
+  },
+  "shape": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.9109375,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue square at the top right",
+    "The red square on the left",
+    "The blue circle below",
+    "The red circle on the left"
+   ],
+   "success_ground_truth_labels": 0.9903125
+  },
+  "box": {
+   "success_no_ask": 0.23625,
+   "success_label_free": 0.8090625,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle below",
+    "The blue square at the top right",
+    "The red circle on the left",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "red box": {
+   "success_no_ask": 0.41375,
+   "success_label_free": 0.97,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The red circle on the left",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "blue box": {
+   "success_no_ask": 0.491875,
+   "success_label_free": 0.880625,
+   "ask_rate": 0.92,
+   "example_question": [
+    "The blue square at the top right",
+    "The blue circle below"
+   ],
+   "success_ground_truth_labels": 0.96625
+  },
+  "round object": {
+   "success_no_ask": 0.3075,
+   "success_label_free": 0.9221875,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle below",
+    "The red circle on the left",
+    "The blue square at the top right",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "red disk": {
+   "success_no_ask": 0.79875,
+   "success_label_free": 0.955625,
+   "ask_rate": 0.64,
+   "example_question": [
+    "The red circle",
+    "The red square at the top right"
+   ],
+   "success_ground_truth_labels": 0.984375
+  },
+  "blue disk": {
+   "success_no_ask": 0.71125,
+   "success_label_free": 0.9480555555555555,
+   "ask_rate": 0.76,
+   "example_question": [
+    "[path]",
+    "The blue square"
+   ],
+   "success_ground_truth_labels": 0.9675
+  },
+  "crimson square": {
+   "success_no_ask": 0.768125,
+   "success_label_free": 0.923125,
+   "ask_rate": 0.56,
+   "example_question": [
+    "The blue square at the top right",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 0.960625
+  },
+  "navy circle": {
+   "success_no_ask": 0.29375,
+   "success_label_free": 0.794375,
+   "ask_rate": 0.8,
+   "example_question": [
+    "The blue circle below",
+    "The red circle on the left"
+   ],
+   "success_ground_truth_labels": 0.88
+  },
+  "a red thing": {
+   "success_no_ask": 0.493125,
+   "success_label_free": 0.9353125,
+   "ask_rate": 0.96,
+   "example_question": [
+    "The red circle on the left",
+    "The red square on the left"
+   ],
+   "success_ground_truth_labels": 0.98
+  },
+  "something blue": {
+   "success_no_ask": 0.418125,
+   "success_label_free": 0.9078125,
+   "ask_rate": 0.96,
+   "example_question": [
+    "[path]",
+    "The blue square",
+    "The red circle near the blue square"
+   ],
+   "success_ground_truth_labels": 0.9784375
+  },
+  "any object": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.89453125,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle below",
+    "The blue square at the top right",
+    "The red square on the left",
+    "The red circle on the left"
+   ],
+   "success_ground_truth_labels": 1.0
+  },
+  "object": {
+   "success_no_ask": 0.25,
+   "success_label_free": 0.8565625,
+   "ask_rate": 1.0,
+   "example_question": [
+    "The blue circle below",
+    "The red circle on the left",
+    "The red square on the left",
+    "The blue square at the top right"
+   ],
+   "success_ground_truth_labels": 0.98109375
+  }
+ },
+ "examples": [
+  {
+   "prompt": "square",
+   "clusters": [
+    "72%",
+    "28%"
+   ],
+   "descriptions": [
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue square at the top right",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "circle",
+   "clusters": [
+    "77%",
+    "20%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The red circle on the left"
+   ]
+  },
+  {
+   "prompt": "red",
+   "clusters": [
+    "66%",
+    "31%"
+   ],
+   "descriptions": [
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The red circle on the left",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "blue",
+   "clusters": [
+    "48%",
+    "47%"
+   ],
+   "descriptions": [
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue square at the top right",
+    "The blue circle below"
+   ]
+  },
+  {
+   "prompt": "shape",
+   "clusters": [
+    "28%",
+    "27%",
+    "23%",
+    "22%"
+   ],
+   "descriptions": [
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ],
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ]
+   ],
+   "options": [
+    "The blue square at the top right",
+    "The red square on the left",
+    "The blue circle below",
+    "The red circle on the left"
+   ]
+  },
+  {
+   "prompt": "box",
+   "clusters": [
+    "50%",
+    "19%",
+    "11%",
+    "11%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The blue square at the top right",
+    "The red circle on the left",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "red box",
+   "clusters": [
+    "72%",
+    "19%"
+   ],
+   "descriptions": [
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The red circle on the left",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "blue box",
+   "clusters": [
+    "55%",
+    "42%"
+   ],
+   "descriptions": [
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue square at the top right",
+    "The blue circle below"
+   ]
+  },
+  {
+   "prompt": "round object",
+   "clusters": [
+    "39%",
+    "22%",
+    "20%",
+    "11%",
+    "5%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The red circle on the left",
+    "The blue square at the top right",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "crimson square",
+   "clusters": [
+    "88%",
+    "12%"
+   ],
+   "descriptions": [
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The blue square at the top right",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "navy circle",
+   "clusters": [
+    "81%",
+    "11%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The red circle on the left"
+   ]
+  },
+  {
+   "prompt": "a red thing",
+   "clusters": [
+    "55%",
+    "42%"
+   ],
+   "descriptions": [
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ]
+   ],
+   "options": [
+    "The red circle on the left",
+    "The red square on the left"
+   ]
+  },
+  {
+   "prompt": "any object",
+   "clusters": [
+    "38%",
+    "23%",
+    "22%",
+    "17%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The blue square at the top right",
+    "The red square on the left",
+    "The red circle on the left"
+   ]
+  },
+  {
+   "prompt": "object",
+   "clusters": [
+    "42%",
+    "23%",
+    "17%",
+    "16%"
+   ],
+   "descriptions": [
+    [
+     "The blue circle below",
+     "The blue dot under the arrow",
+     "The blue circle the robot targets"
+    ],
+    [
+     "The red circle on the left",
+     "The red circle near the square",
+     "The red circle at the bottom left"
+    ],
+    [
+     "The red square on the left",
+     "The red square near the arrow",
+     "The red square the robot targets"
+    ],
+    [
+     "The blue square at the top right",
+     "Top-right blue square",
+     "Blue square near the dashed line"
+    ]
+   ],
+   "options": [
+    "The blue circle below",
+    "The red circle on the left",
+    "The red square on the left",
+    "The blue square at the top right"
+   ]
+  }
+ ]
+}

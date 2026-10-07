@@ -26,9 +26,14 @@ any size, with no fitting.
 | `robot2/*_eval.py`, `robot2/plot_*.py` | Experiments (cached outputs in `robot2/lcs/`, `robot2/mc/`, `robot2/chunk/`) and their figures. |
 | `robot/mlp.py` | Hand-written NumPy MLP with backprop, Adam and forward-mode JVP. |
 | `robot3/` | Language-conditioned shapes task (PyTorch, object-attention flow policy, CLIP / MiniLM / oracle prompt embeddings). `README.md` has setup, GPU notes and results. |
+| `robot4/` | The robot3 task for **pi0** (lerobot `pi0_base`): rendered top-down camera image + PaliGemma prompt, action expert fine-tuned with the VLM frozen. `pi0flow.py` = pi0 as a differentiable flow map (explicit expert attention over the cached prefix K/V, `torch.func` Jacobians). `README.md` has setup and results. |
 
 `robot2/mc/prep.npz` (first-chunk Jacobians, 23 MB) is not in the bundle; rebuild it with
 `cd robot2 && python mc_eval.py prep` (about 4 min) before running the LCS or chunk studies.
+Likewise `robot4/out/pi0_arrive/lcs_scan.npz` (19 MB): rebuild with
+`cd robot4 && ../.venv/bin/python lcs4.py pi0_arrive scan` (about 50 min on the RTX 5090; needs
+`policies/pi0_arrive.pt`, which is not in the repo either — retrain with
+`pi0flow.py train arrive 20000`, about 2.8 h).
 
 ## Conventions
 
