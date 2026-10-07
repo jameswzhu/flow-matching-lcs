@@ -179,10 +179,13 @@ checks the names. Ground truth is used only to score. Same 25 test scenes and se
    - **Cross the ridge**: from each detection seed with FTLE > 0, line search along v1 for
      the largest chunk jump on each side, then walk past it until the chunk settles (< 0.05
      change per 0.05 step). A settled point whose end point is > 0.4 from every basin found
-     so far is a new basin. This finds minority basins that few or no random seeds reach:
-     86 new basins (4 duplicates) and 33 more questions asked. Stepping a fixed 0.3 past the
-     jump was not enough (197 of 340 duplicates): just past the boundary the chunk is still
-     turning.
+     so far is a new basin, if at least 2 of the 64 sampled chunks end near it. This gives a
+     clean representative for minority basins too small to form a cluster (33 more
+     questions asked). Stepping a fixed 0.3 past the jump was not enough (197 of 340
+     duplicates): just past the boundary the chunk is still turning. Without the 2-of-64
+     rule, the crossing also finds basins that no sampled seed reaches: real basins of the
+     flow with almost no Gaussian mass, often a non-matching object (e.g. a blue circle for
+     "square"); offering them clutters the question with outcomes the robot never produces.
 3. **Name them**: each basin's representative path is drawn on the camera image (green
    arrow, `out/pi0_arrive/lf_paths/`). The VLM is asked for three short ways to refer to
    the object the robot is moving toward, without mentioning the arrow. It is not told
@@ -199,13 +202,14 @@ checks the names. Ground truth is used only to score. Same 25 test scenes and se
 | first description names the right object | 89% | 71% |
 | any of the three does | 91% | 81% |
 | options that are verified phrases (rest shown as paths) | 90% | 92% |
-| basins found = true number | 85% | 85% |
-| mean success over the 17 prompts the policy finds ambiguous | **0.953** | 0.902 |
+| basins found = true number | 88% | 85% |
+| mean success over the 17 prompts the policy finds ambiguous | **0.951** | 0.902 |
 | (act on the prompt / ground-truth-label questions) | 0.451 / 0.971 | |
 
 Per prompt (4B; `figs/clarify_lf_pi0_arrive.png`): "square" 0.94 (ground-truth version
-0.94), "red" 0.96 (0.96), "shape" 0.98 (0.99), "navy circle" 0.84 (0.88), "box" 0.93
-(1.00), "object" 0.93 (0.98). It never asks for a trained 1-match prompt. The questions
+0.94), "red" 0.96 (0.96), "shape" 0.98 (0.99), "navy circle" 0.84 (0.88), "box" 0.91
+(1.00), "object" 0.93 (0.98) (8B column: before the 2-of-64 rule). It never asks for a
+trained 1-match prompt. The questions
 it asks are e.g. "the blue square or the red square?" for "square", and all four for
 "shape".
 
@@ -223,6 +227,21 @@ it asks are e.g. "the blue square or the red square?" for "square", and all four
 **Caveats.** Simulated user; first-chunk scoring; one task where every behaviour is "go to
 an object", so descriptions are noun phrases. The VLM call dominates the cost (~0.5 s
 per path on the 5090); the flow parts take ~1–2 s per request.
+
+### Worked examples (`demo_ask.py`)
+
+`python demo_ask.py "<prompt>" <scene>` runs the pipeline live on one test scene (about 3
+min, mostly the FTLE slice drawn for the figure) and prints every step.
+
+- `figs/demo_ask_square.png`, "square", scene 23. 3 of 32 seeds have FTLE > 0. Sampling
+  finds one basin (the red square, 89%). Crossing the ridge from the strongest seed finds
+  the blue square (8% of seeds, too few for a cluster) and a basin no sampled seed reaches
+  (the blue circle, not offered). The FTLE slice shows a junction of ridges. The VLM names
+  both; both names pass the flow check (100% and 91%). Robot: "Do you mean the red square
+  or the blue square at the bottom?"
+- `figs/demo_ask_navy_circle.png`, "navy circle", scene 1. 2 of 32 seeds with FTLE > 0;
+  basins of 81% (blue circle) and 11% (red circle). Robot: "Do you mean the blue circle or
+  the red circle?"
 
 ## Results: `pi0_arrive` (20k steps, 6 jittered arrived states per episode)
 
@@ -360,4 +379,5 @@ From `robot4/`:
 | `diag4.py` | open-loop diagnostics and example closed-loop trajectories |
 | `lcs4.py` | LCS line search, bisection, nudge tests (`scan nudge plot`). `out/pi0_arrive/lcs_scan.npz` (19 MB) is not committed; `scan` rebuilds it (~50 min) |
 | `clarify4.py` | ambiguity detection from FTLE, question selection, simulated user (`dist ask plot`) |
+| `demo_ask.py` | worked example of the label-free pipeline on one scene and prompt, with a figure |
 | `clarify_lf.py` | label-free version: ridge crossing + clustering, VLM descriptions, flow verification (`basins caption verify ask plot`; `VLM=` env picks the VLM) |

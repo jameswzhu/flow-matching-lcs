@@ -20,7 +20,9 @@ seeds Zm choose the question, execution seeds Ze score it).
    the ridge itself: from each detection seed with FTLE > 0, line search along v1 for the
    largest chunk jump on each side (> 0.5) and walk past it until the chunk settles; a
    settled point whose end point is > 0.4 from every basin found so far becomes a new
-   basin, however few seeds land there.
+   basin if at least 2 of the 64 sampled chunks end near it: the policy actually produces
+   it, but too rarely to form a cluster. (Basins no sampled seed reaches are real basins
+   of the flow with almost no Gaussian mass, often a non-matching object; not offered.)
    Ask only if the gate fires and >= 2 basins are found.
 3. Describe: the medoid's path is drawn on the camera image (green arrow; the objects
    are red / blue) and the VLM is asked for three short ways to refer to the object the
@@ -44,15 +46,15 @@ from env4 import (ALL_PROMPTS, TRAIN_PROMPTS, KIND_NAMES, KINDS, N_OBJ, H, VIEW,
                   chunk_target, kind_of)
 from pi0flow import D_ACT
 
-NAME = sys.argv[1]
-STEPS = sys.argv[2:]
+NAME = sys.argv[1] if __name__ == "__main__" else "pi0_arrive"     # importable (demo_ask.py)
+STEPS = sys.argv[2:] if __name__ == "__main__" else []
 OUT = os.path.join("out", NAME)
 IMG_DIR = os.path.join(OUT, "lf_paths")
 os.makedirs(IMG_DIR, exist_ok=True)
 PROMPTS = list(ALL_PROMPTS)
 N_SEED = 64
 CLUSTER_D, MIN_SHARE, PASS_SHARE, CACHE_D, MERGE_D = 0.4, 0.10, 0.90, 0.15, 0.2
-RIDGE_S, RIDGE_STEP, RIDGE_JUMP, RIDGE_SETTLE = 2.0, 0.05, 0.5, 0.05
+RIDGE_S, RIDGE_STEP, RIDGE_JUMP, RIDGE_SETTLE, RIDGE_MIN_SHARE = 2.0, 0.05, 0.5, 0.05, 2 / 64
 VLM = os.environ.get("VLM", "Qwen/Qwen3-VL-4B-Instruct")       # VLM=Qwen/Qwen3-VL-8B-Instruct for the larger one
 TAG = "" if VLM.endswith("4B-Instruct") else "_" + VLM.split("-")[-2].lower()                 # "_8b"
 CAPS, VER = f"lf_captions{TAG}.json", f"lf_verify{TAG}.json"
@@ -93,6 +95,17 @@ def cluster(E):
     return lab, keep
 
 
+def passes(E, centre):
+    """Verification of a description: pi0, prompted with it, sends seeds to end points E. It
+    passes for the basin at `centre` if the end points are tight (>= PASS_SHARE within
+    CLUSTER_D of their mean) and the mean is within CLUSTER_D of the basin.
+    Returns (passed, mean end point, tight share, distance to the basin)."""
+    m = E.mean(0)
+    tight = float(np.mean(np.linalg.norm(E - m, axis=1) < CLUSTER_D))
+    dist = float(np.linalg.norm(m - centre))
+    return tight >= PASS_SHARE and dist < CLUSTER_D, m, tight, dist
+
+
 def instruction_from(desc):
     d = desc.strip().strip(".").lower()
     d = re.sub(r"^(the|a|an)\s+", "", d)
@@ -100,6 +113,60 @@ def instruction_from(desc):
 
 
 # ----------------------------------------------------------------------------- basins
+def find_basins(pol, c, Zs, zr=None):
+    """Basins of the first-chunk flow under conditioning c, without labels.
+    Zs [N, A]: sampled seeds, clustered by chunk end point. zr [R, A] (optional): seeds near
+    the ridge (FTLE > 0); from each, line search along v1 for the largest chunk jump on each
+    side and walk past it until the chunk settles. A settled point whose end point is
+    > CLUSTER_D from every basin found so far is a new basin, if >= RIDGE_MIN_SHARE of the
+    sampled chunks end near it (the policy actually produces it).
+    Returns sampled chunks a, their end points E, basins [(centroid, chunk, share, member
+    chunks, source)] and a trace of the line searches (for demo_ask.py)."""
+    a = pol.flow_np(Zs, c); E = endpoints(a)
+    lab, keep = cluster(E)
+    reps = []
+    for cid in keep:
+        mem = np.where(lab == cid)[0]
+        cen = E[mem].mean(0)
+        med = mem[np.argmin(np.linalg.norm(E[mem] - cen, axis=1))]
+        reps.append((cen, a[med], len(mem) / len(Zs), a[mem], "sampled"))
+    trace = []
+    if zr is not None and len(zr):
+        _, J = pol.jac(zr, c)
+        v1 = np.linalg.svd(J, full_matrices=False)[2][:, 0]
+        sg = np.arange(-RIDGE_S, RIDGE_S + 1e-9, RIDGE_STEP); i0 = len(sg) // 2
+        aa = pol.flow_np((zr[:, None] + sg[None, :, None] * v1[:, None]).reshape(-1, zr.shape[1]), c)
+        aa = aa.reshape(len(zr), len(sg), -1)
+        jump = np.linalg.norm(np.diff(aa, axis=1), axis=-1)
+        for n in range(len(zr)):
+            tr = dict(s=sg, jump=jump[n], v1=v1[n], crossings=[])
+            for side in (+1, -1):
+                rng_ = np.arange(i0, len(sg) - 1) if side > 0 else np.arange(0, i0)
+                k = rng_[np.argmax(jump[n, rng_])]
+                if jump[n, k] < RIDGE_JUMP:
+                    continue
+                # walk past the jump until the chunk settles (< RIDGE_SETTLE per step for 3 steps):
+                # just past the boundary the chunk is still turning toward its basin
+                j = k + 1 if side > 0 else k
+                while 0 < j < len(sg) - 1:
+                    nxt = jump[n, j:j + 3] if side > 0 else jump[n, max(j - 3, 0):j]
+                    if len(nxt) == 3 and np.all(nxt < RIDGE_SETTLE):
+                        break
+                    j += side
+                ch = aa[n, j]; e = endpoints(ch[None])[0]
+                share = float(np.mean(np.linalg.norm(E - e, axis=1) < CLUSTER_D))
+                new = min([np.linalg.norm(e - r[0]) for r in reps] + [np.inf]) > CLUSTER_D
+                # only outcomes the policy actually produces: a basin no sampled seed reaches is a real
+                # basin of the flow but has (almost) no Gaussian mass, so it is not offered
+                tr["crossings"].append(dict(jump_at=float(0.5 * (sg[k] + sg[k + 1])), settled_at=float(sg[j]),
+                                            end=e, new_basin=bool(new), share=share,
+                                            kept=bool(new and share >= RIDGE_MIN_SHARE)))
+                if new and share >= RIDGE_MIN_SHARE:
+                    reps.append((e, ch, share, ch[None], "ridge"))
+            trace.append(tr)
+    return a, E, reps, trace
+
+
 def draw_path(o, chunk, path):
     """Camera image (2x upscaled) with the chunk's path as a green arrow, extended along
     its heading to the image edge (dashed). Saved as png."""
@@ -137,43 +204,8 @@ if "basins" in STEPS:
         for p in PROMPTS:
             with torch.no_grad():
                 c = pol.cond(ZERO, o[None], p)
-            a = pol.flow_np(Zm[i], c); E = endpoints(a)
-            lab, keep = cluster(E)
             gate = float((F[ps_f.index(p), i] > 0).mean()) >= tau
-            reps = []                                               # (centroid, chunk, share, member chunks, source)
-            for cid in keep:
-                mem = np.where(lab == cid)[0]
-                cen = E[mem].mean(0)
-                med = mem[np.argmin(np.linalg.norm(E[mem] - cen, axis=1))]
-                reps.append((cen, a[med], len(mem) / N_SEED, a[mem], "sampled"))
-            if gate:
-                # basins of the ridge itself: from each detection seed with FTLE > 0, line search along
-                # v1 for the largest chunk jump on each side and step RIDGE_BEYOND past it
-                zr = Zd[i][F[ps_f.index(p), i] > 0]
-                _, J = pol.jac(zr, c)
-                v1 = np.linalg.svd(J, full_matrices=False)[2][:, 0]
-                sg = np.arange(-RIDGE_S, RIDGE_S + 1e-9, RIDGE_STEP); i0 = len(sg) // 2
-                aa = pol.flow_np((zr[:, None] + sg[None, :, None] * v1[:, None]).reshape(-1, zr.shape[1]), c)
-                aa = aa.reshape(len(zr), len(sg), -1)
-                jump = np.linalg.norm(np.diff(aa, axis=1), axis=-1)
-                for n in range(len(zr)):
-                    for side in (+1, -1):
-                        rng_ = np.arange(i0, len(sg) - 1) if side > 0 else np.arange(0, i0)
-                        k = rng_[np.argmax(jump[n, rng_])]
-                        if jump[n, k] < RIDGE_JUMP:
-                            continue
-                        # walk past the jump until the chunk settles (< RIDGE_SETTLE per step for 3 steps):
-                        # just past the boundary the chunk is still turning toward its basin
-                        j = k + 1 if side > 0 else k
-                        while 0 < j < len(sg) - 1:
-                            nxt = jump[n, j:j + 3] if side > 0 else jump[n, max(j - 3, 0):j]
-                            if len(nxt) == 3 and np.all(nxt < RIDGE_SETTLE):
-                                break
-                            j += side
-                        ch = aa[n, j]; e = endpoints(ch[None])[0]
-                        if min([np.linalg.norm(e - r[0]) for r in reps] + [np.inf]) > CLUSTER_D:
-                            near = np.linalg.norm(E - e, axis=1) < CLUSTER_D
-                            reps.append((e, ch, near.mean(), ch[None], "ridge"))
+            a, E, reps, _ = find_basins(pol, c, Zm[i], Zd[i][F[ps_f.index(p), i] > 0] if gate else None)
             cl = []
             for cen, rep, share, members, src in reps:
                 # describe: reuse a path already drawn in this scene if its end point is within CACHE_D
@@ -200,23 +232,33 @@ ASK = ("This is a top-down camera view of a table. The small black dot is a robo
        "know which object you mean. Do not mention the arrow, the path or the robot. Answer only with a "
        "numbered list.")
 
-if "caption" in STEPS:
-    from PIL import Image
+def load_vlm():
     from transformers import AutoModelForImageTextToText, AutoProcessor
+    return (AutoModelForImageTextToText.from_pretrained(VLM, dtype=torch.bfloat16).to("cuda").eval(),
+            AutoProcessor.from_pretrained(VLM))
+
+
+def describe(vlm, proc, image_path):
+    """The VLM's raw answer and up to three descriptions of the object the drawn path heads for."""
+    from PIL import Image
+    msg = [{"role": "user", "content": [{"type": "image", "image": Image.open(image_path).convert("RGB")},
+                                        {"type": "text", "text": ASK}]}]
+    inp = proc.apply_chat_template(msg, tokenize=True, add_generation_prompt=True, return_dict=True,
+                                   return_tensors="pt").to(vlm.device)
+    with torch.no_grad():
+        out = vlm.generate(**inp, max_new_tokens=80, do_sample=False)
+    text = proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0]
+    descs = [re.sub(r"^\s*\d+[.)]\s*", "", l).strip() for l in text.splitlines() if re.match(r"^\s*\d+[.)]", l)]
+    return text, descs[:3]
+
+
+if "caption" in STEPS:
     B = json.load(open(os.path.join(OUT, "lf_basins.json")))
-    proc = AutoProcessor.from_pretrained(VLM)
-    vlm = AutoModelForImageTextToText.from_pretrained(VLM, dtype=torch.bfloat16).to("cuda").eval()
+    vlm, proc = load_vlm()
     caps = []
     for n, j in enumerate(B["jobs"]):
-        msg = [{"role": "user", "content": [{"type": "image", "image": Image.open(j["image"]).convert("RGB")},
-                                            {"type": "text", "text": ASK}]}]
-        inp = proc.apply_chat_template(msg, tokenize=True, add_generation_prompt=True, return_dict=True,
-                                       return_tensors="pt").to(vlm.device)
-        with torch.no_grad():
-            out = vlm.generate(**inp, max_new_tokens=80, do_sample=False)
-        text = proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0]
-        descs = [re.sub(r"^\s*\d+[.)]\s*", "", l).strip() for l in text.splitlines() if re.match(r"^\s*\d+[.)]", l)]
-        caps.append(dict(raw=text, descs=descs[:3]))
+        text, descs = describe(vlm, proc, j["image"])
+        caps.append(dict(raw=text, descs=descs))
         if n < 8 or n % 25 == 0:
             log(f"caption {n + 1}/{len(B['jobs'])} (truth: {KIND_NAMES[j['gt_kind']]}): {descs[:3]}")
     json.dump(caps, open(os.path.join(OUT, CAPS), "w"), indent=1)
@@ -271,7 +313,8 @@ if "ask" in STEPS:
     any_true = [any(reads_as(d) == {j["gt_kind"]} for d in c["descs"]) for j, c in zip(jobs, caps)]
     per_prompt, examples, n_clusters_ok, opt_stats = {}, [], [], dict(verbal=0, visual=0)
     for case in B["cases"]:
-        i, p, cl = case["scene"], case["prompt"], case["clusters"]
+        i, p = case["scene"], case["prompt"]
+        cl = [c for c in case["clusters"] if c["source"] == "sampled" or c["share"] >= RIDGE_MIN_SHARE - 1e-9]
         cen = np.array([c["centroid"] for c in cl])
         # options: first verified description per cluster. A description passes if pi0 executes it
         # tightly (>= 90% of end points within CLUSTER_D of their mean) and lands within CLUSTER_D
@@ -281,9 +324,8 @@ if "ask" in STEPS:
         for j, c in enumerate(cl):
             choice = None
             for d in caps[c["job"]]["descs"]:
-                E = np.array(V[f"{i}|{instruction_from(d)}"]["E_model"]); m = E.mean(0)
-                tight = np.mean(np.linalg.norm(E - m, axis=1) < CLUSTER_D) >= PASS_SHARE
-                if tight and np.linalg.norm(m - cen[j]) < CLUSTER_D:
+                ok, m, _, _ = passes(np.array(V[f"{i}|{instruction_from(d)}"]["E_model"]), cen[j])
+                if ok:
                     choice = (d, m); break
             if choice is None:
                 opts.append(None); opt_end.append(None); opt_cl.append(j)

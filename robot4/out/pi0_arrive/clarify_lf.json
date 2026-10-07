@@ -5,12 +5,12 @@
   "any_names_true_object": 0.9071428571428571
  },
  "clustering": {
-  "cluster_count_matches_truth": 0.8495238095238096
+  "cluster_count_matches_truth": 0.88
  },
  "options": {
-  "verbal": 947,
-  "visual": 106,
-  "verbal_share": 0.899335232668566
+  "verbal": 929,
+  "visual": 103,
+  "verbal_share": 0.9001937984496124
  },
  "per_prompt": {
   "red square": {
@@ -95,7 +95,7 @@
   },
   "box": {
    "success_no_ask": 0.23625,
-   "success_label_free": 0.929375,
+   "success_label_free": 0.910625,
    "ask_rate": 1.0,
    "example_question": [
     "The blue circle",
